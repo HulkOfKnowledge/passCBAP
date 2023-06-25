@@ -63,6 +63,7 @@ To install and run the passCBAP project locally on your machine, follow these st
 - HTML
 - CSS
 - SCSS
+- JavaScript
 - Bootstrap
 - jQuery
 - Django
