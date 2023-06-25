@@ -1,0 +1,104 @@
+{% extends 'FormsInterface/base.html' %}
+{% load static %}
+
+{% block nav %}
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="{% url 'home' %}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h2 class="m-0 text-primary">passCBAP<i class="bi bi-stars"></i></h2>
+    </a>
+    <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <span class="text-primary">
+            <i class="bi bi-clock-fill"></i>
+            Time Left: <span id="countdown-timer" class="text-danger"><span id="exam-time">{{ exam.time }}</span></span>
+        </span>
+    </div>
+</nav>
+<!-- Navbar End -->
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5" id="instructionSection">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Exam Instructions</h5>
+                </div>
+                <div class="card-body">
+                    <p>
+                        This exam consists of {{ exam.number_of_questions }} questions.
+                        You will have {{ exam.time }} minutes to complete the exam.
+                        Please read each question carefully and select the appropriate answer.
+                    </p>
+                    <p>Click the Start button below to begin the exam.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <button id="startExamBtn" class="btn btn-primary">Start Exam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5" id="examContainer" style="display: none;">
+    <div class="row mt-3">
+        <div class="col-lg-12">
+            <form id="examForm" method="POST" action="{% url 'exam-board' exam.id %}">
+                {% csrf_token %}
+                <input type="hidden" name="exam_id" value="{{ exam.id }}">
+                {% for question in questions %}
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5>Question {{ forloop.counter }}</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6>{{ question.question }}</h6>
+                        {% for key, value in question.options.items %}
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question_{{ question.id }}" id="option_{{ question.id }}_{{ key }}" value="{{ key }}" required>
+                            <label class="form-check-label" for="option_{{ question.id }}_{{ key }}">
+                                {{ key }}. {{ value }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('startExamBtn').addEventListener('click', function() {
+        this.disabled = true;  // Disable the button to prevent multiple clicks
+        startExam();
+    });
+
+    function startExam() {
+        document.getElementById('instructionSection').style.display = 'none';  // Hide the instruction section
+        document.getElementById('examContainer').style.display = 'block';  // Show the exam container
+
+        var duration = parseInt(document.getElementById('exam-time').innerText) * 60;
+
+        function updateCountdownTimer() {
+            var minutes = Math.floor(duration / 60);
+            var seconds = duration % 60;
+            document.getElementById('countdown-timer').innerText = minutes + 'm ' + seconds + 's';
+
+            if (duration > 0) {
+                duration--;
+                setTimeout(updateCountdownTimer, 1000); // Update every second
+            } else {
+                document.getElementById('examForm').submit();
+            }
+        }
+
+        updateCountdownTimer();
+    }
+</script>
+{% endblock %}

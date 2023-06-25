@@ -1,0 +1,115 @@
+{% extends 'FormsInterface/base.html' %}
+
+{% load static %}
+{% block content %}
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Get Started</h6>
+            <h1 class="mb-5">Sign Up</h1>
+        </div>
+
+        <div class="col-md-6 offset-md-3 wow fadeInUp" data-wow-delay="0.5s">
+            <form method="POST" action="{% url 'sign-up' %}">
+                {% csrf_token %}
+
+                <div class="text-center">
+                    {% if messages %}
+                    <div class="alert alert-danger alert-dismissible fade show mb-4" role="alert">
+                        <ul class="errorlist mb-0">
+                            {% for message in messages %}
+                            <li>{{ message }}</li>
+                            {% endfor %}
+                        </ul>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    {% endif %}
+
+                    <div id="passwordMismatchMessage" class="alert alert-danger alert-dismissible fade show mb-4" role="alert" style="display: none;">
+                        Password and Confirm Password do not match.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input required id="fname" name="fname" type="text" class="form-control" placeholder="First Name">
+                            <label for="fname"><i class="bi bi-person-circle"></i> First Name:</label>
+                            <i class="bi bi-envelope-at"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input required id="sname" name="sname" type="text" class="form-control" placeholder="Surname">
+                            <label for="sname"><i class="bi bi-person-fill"></i> Surname:</label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-floating">
+                            <input required id="email" name="email" type="email" class="form-control" placeholder="Your email">
+                            <label for="email"><i class="bi bi-envelope-fill"></i> Your Email:</label>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-floating">
+                            <input required id="username" name="username" type="text" class="form-control" minlength="6" placeholder="Username">
+                            <label for="username"><i class="bi bi-person-fill"></i> Username:</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input required id="password1" name="password1" type="password" class="form-control" minlength="6" placeholder="Password">
+                            <label for="subject"><i class="bi bi-file-earmark-lock-fill"></i> Password:</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input required id="password2" name="password2" type="password" class="form-control" placeholder="Confirm Password">
+                            <label for="C-password"><i class="bi bi-file-earmark-lock-fill"></i> Confirm Password:</label>
+                        </div>
+                    </div>
+                    <div class="col-4 offset-md-4">
+                        <button class="btn btn-primary w-100 py-3" type="submit">Sign up</button>
+                    </div>
+                </div>
+
+                <div class="w-full text-center mt-5">
+                    <span class="h6 text-muted">Already a member?</span>
+                    <a href="{% url 'sign-in' %}" class="txt2">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    const passwordInput = document.getElementById('password1');
+    const confirmPasswordInput = document.getElementById('password2');
+    const mismatchMessage = document.getElementById('passwordMismatchMessage');
+    const submitButton = document.querySelector('button[type="submit"]');
+
+    function checkPasswordMatch() {
+        const password = passwordInput.value;
+        const confirmPassword = confirmPasswordInput.value;
+
+        if (password !== confirmPassword) {
+            mismatchMessage.style.display = 'block';
+            submitButton.classList.add('disabled');
+        } else {
+            mismatchMessage.style.display = 'none';
+            submitButton.classList.remove('disabled');
+        }
+    }
+
+    confirmPasswordInput.addEventListener('input', checkPasswordMatch);
+
+    const closeButtons = document.querySelectorAll('.alert .btn-close');
+    closeButtons.forEach((button) => {
+        button.addEventListener('click', (e) => {
+            const alert = e.target.closest('.alert');
+            alert.remove();
+        });
+    });
+</script>
+{% endblock %}

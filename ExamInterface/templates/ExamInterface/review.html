@@ -1,0 +1,94 @@
+{% extends 'FormsInterface/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h5>Exam Review</h5>
+        </div>
+        <div class="card-body">
+            <p>Exam Date: {{ user_exam.date_completed }}</p>
+            <p>Score: {{ user_exam.score }}%</p>
+            <p>Questions passed: {{ num_correct }} out of {{ questions|length }}</p>
+            <p>Status: <span class="badge {% if user_exam.score >= 70 %}bg-success{% else %}bg-danger{% endif %}">
+                {% if user_exam.score >= 70 %}Passed{% else %}Failed{% endif %}
+            </span></p>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header"></div>
+        <div class="card-body">
+            <form>
+                {% for question in questions|dictsort:'question_id' %}
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h5>Question {{ question.question_id }}</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6>{{ question.question }}</h6>
+                        {% for key, value in question.options.items %}
+                                {% if value == question.correct_answer %}
+                                    {% with key as correct_option %}
+                                        {% if question.selected_answer == key %}
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="question_{{ question.id }}" id="option_{{ question.id }}_{{ key }}" value="{{ key }}" checked disabled>
+                                                <label class="form-check-label text-success" for="option_{{ question.id }}_{{ key }}">
+                                                    {{ key }}. {{ value }}
+                                                    <span class="check-icon">✓</span>
+                                                </label>
+                                            </div>
+                                        {% else %}
+                                            <div class="form-check">
+                                                <input class="form-check-input custom-radio" type="radio" name="question_{{ question.id }}" id="option_{{ question.id }}_{{ key }}" value="{{ key }}" disabled>
+                                                <label class="form-check-label text-success" for="option_{{ question.id }}_{{ key }}">
+                                                    {{ key }}. {{ value }}
+                                                    <span class="mark-icon">✔</span>
+                                                </label>
+                                            </div>
+                                        {% endif %}
+                                    {% endwith %}
+                                {% else %}
+                                    {% if question.selected_answer == key %}
+                                        <div class="form-check">
+                                            <input class="form-check-input custom-radio" type="radio" name="question_{{ question.id }}" id="option_{{ question.id }}_{{ key }}" value="{{ key }}" checked disabled>
+                                            <label class="form-check-label text-danger" for="option_{{ question.id }}_{{ key }}">
+                                                {{ key }}. {{ value }}
+                                            </label>
+                                        </div>
+                                    {% else %}
+                                        <div class="form-check">
+                                            <input class="form-check-input custom-radio" type="radio" name="question_{{ question.id }}" id="option_{{ question.id }}_{{ key }}" value="{{ key }}" disabled>
+                                            <label class="form-check-label" for="option_{{ question.id }}_{{ key }}">
+                                                {{ key }}. {{ value }}
+                                            </label>
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+ 
+                        <p class="mt-3"><span class="explanation">Explanation: {{ question.explanation }}</span></p>
+                        <a href="#" class="explanation-link">See Explanation</a>
+                    </div>
+                </div>
+            {% endfor %}
+            
+                <a class="btn btn-primary" href="{% url 'dashboard' %}">Go back to dashboard</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.explanation').hide();
+
+    $('.explanation-link').click(function(e) {
+        e.preventDefault();
+        $(this).closest('.card-body').find('.explanation').toggle();
+    });
+});
+</script>
+{% endblock %}

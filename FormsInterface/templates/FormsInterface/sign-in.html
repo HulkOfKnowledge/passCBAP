@@ -1,0 +1,73 @@
+{% extends 'FormsInterface/base.html' %}
+
+{% load static %}
+{% block content %}
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Get Started</h6>
+            <h1 class="mb-5">Log In</h1>
+        </div>
+
+        
+
+        <div class="row wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-md-6 offset-md-3">
+                {% if messages %}
+                <div class="alert alert-danger alert-dismissible fade show wow fadeInDown" data-wow-delay="0.6s" role="alert">
+                    <ul class="errorlist">
+                        {% for message in messages %}
+                        <li>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                {% endif %}
+
+                <form method="POST" action="{% url 'sign-in' %}">
+                    {% csrf_token %}
+                    <div class="row g-3">
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="username" name="username" minlength="6"
+                                    placeholder="Your username" required>
+                                <label for="username"><i class="bi bi-person-circle"></i> Username:</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="Your password" required>
+                                <label for="password"><i class="bi bi-file-earmark-lock"></i> Password:</label>
+                                <a class="small mt-2 text-muted" href="{% url 'password_reset' %}">Forgot password?</a>
+                            </div>
+                        </div>
+                        <div class="col-4 offset-md-4">
+                            <button class="btn btn-outline-primary w-100 py-3" type="submit">Log In</button>
+                        </div>
+                    </div>
+
+                    <div class="w-full text-center mt-5">
+                        <span class="h6 text-muted">Not a member?</span>
+                        <a href="{% url 'sign-up' %}" class="txt2">Sign up now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    new WOW().init();
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const errorAlert = document.querySelector('.alert-danger');
+        if (errorAlert) {
+            setTimeout(function () {
+                errorAlert.classList.add('fadeOut');
+            }, 3000); // Adjust the timeout value (in milliseconds) to control how long the alert stays visible
+        }
+    });
+</script>
+{% endblock %}

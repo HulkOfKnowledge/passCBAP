@@ -1,0 +1,117 @@
+{% extends 'FormsInterface/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8 exam-actions">
+            <h1 class="text">Welcome, {{ user.username }}!</h1>
+        </div>
+        <div class="col-lg-4 exam-actions">
+            <button type="button" class="btn btn-primary mr-3" data-bs-toggle="modal" data-bs-target="#examCriteriaModal">Set Exam Criteria</button>
+            <a href="{% url 'exam-hall' %}" class="btn btn-success">Take Default Exam</a>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-4 user-info">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">User Information</h5>
+                </div>
+                <div class="card-body">
+                    <p>Username: {{ user.username }}</p>
+                    <p>Email: {{ user.email }}</p>
+                    <p>First Name: {{ user.first_name }}</p>
+                    <p>Last Name: {{ user.last_name }}</p>
+                    <a href="{% url 'sign-out' %}" class="btn btn-primary">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 exam-details">
+            <div class="card">
+                <div class="card-header">
+                    {% if user_exams.count >= 1 %}
+                        <div class="exam-history">
+                            <h5>Exam History</h5>
+                            <div class="accordion" id="examHistoryAccordion">
+                                {% for user_exam in user_exams %}
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="heading{{ user_exam.id }}">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ user_exam.id }}" aria-expanded="false" aria-controls="collapse{{ user_exam.id }}">
+                                                    Exam Date: {{ user_exam.date_completed }}
+                                                </button>
+                                            </h2>
+                                            <div id="collapse{{ user_exam.id }}" class="accordion-collapse collapse" aria-labelledby="heading{{ user_exam.id }}" data-bs-parent="#examHistoryAccordion">
+                                                <div class="accordion-body">
+                                                    <p>Score: {{ user_exam.score }}%</p>
+                                                    <p>Status: <span class="badge {% if user_exam.score >= 70 %}bg-success{% else %}bg-danger{% endif %}">
+                                                        {% if user_exam.score >= 70 %}Passed{% else %}Failed{% endif %}
+                                                    </span></p>
+                                                    <a href="{% url 'review' user_exam.id %}" class="btn btn-primary review-button">Review</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% else %}
+                        <h5>Exam History</h5>
+                        </div>
+                        <div class="no-exam">
+                            <p> <i>You have not participated in any exam yet!</i></p>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Exam Criteria Modal -->
+<div class="modal fade" id="examCriteriaModal" tabindex="-1" aria-labelledby="examCriteriaModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="examCriteriaModalLabel">Set Exam Criteria</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="examCriteriaForm" method="post" action="">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="numQuestions" class="form-label">Number of Questions</label>
+                        <input type="number" class="form-control" id="numQuestions" name="num_questions" placeholder="30" min="30" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="duration" class="form-label">Duration (in minutes)</label>
+                        <input type="number" class="form-control" id="duration" name="duration" placeholder="10" min="5" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="{% url 'exam-hall' %}" id="startExamBtn" class="btn btn-primary">Start Exam</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Update the Start Exam button URL when the exam criteria form is submitted
+    document.getElementById('startExamBtn').addEventListener('click', function (event) {
+        event.preventDefault();
+        var numQuestions = document.getElementById('numQuestions').value;
+        var duration = document.getElementById('duration').value;
+        if (numQuestions >= 30 && duration >= 5) {
+            startExamBtn.href = "{% url 'exam-hall' %}?num_questions=" + numQuestions + "&duration=" + duration;
+            window.location.href = startExamBtn.href;
+        } else if (numQuestions >= 30 && duration < 5) {
+            alert("The minimum duration for an exam is 5 minutes!");
+        } else if (numQuestions < 30 && duration >= 5) {
+            alert("The minimum number of questions for an exam is 30!");
+        } else {
+            alert("The minimum number of questions is 30 and the minimum duration is 5 minutes.");
+        }
+    });
+</script>
+{% endblock %}

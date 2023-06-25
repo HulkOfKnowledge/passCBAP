@@ -1,0 +1,1514 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is not a technique used in Requirements Elicitation?",
+        "options": {
+            "a": "Brainstorming",
+            "b": "JAD sessions",
+            "c": "Prototyping",
+            "d": "Change Management"
+        },
+        "correct_answer": "Change Management",
+        "explanation": "Techniques used in requirements elicitation include brainstorming, JAD sessions, prototyping, and interviews. Change management is not a technique used in requirements elicitation."
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is a component of the BABOK Guide?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Use Case Diagrams",
+            "c": "Project Plan",
+            "d": "Gantt Chart"
+        },
+        "correct_answer": "Requirements Traceability Matrix",
+        "explanation": "The BABOK Guide includes components such as requirements traceability matrix, use case diagrams, and business requirements documents. A project plan and Gantt chart are not components of the BABOK Guide."
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is not a characteristic of an effective requirement?",
+        "options": {
+            "a": "Testable",
+            "b": "Complete",
+            "c": "Ambiguous",
+            "d": "Consistent"
+        },
+        "correct_answer": "Ambiguous",
+        "explanation": "Effective requirements should be testable, complete, and consistent. Ambiguous requirements can cause confusion and misinterpretation."
+    },
+    {
+        "id": 4,
+        "question": "Which of the following is not a component of a Stakeholder Engagement Plan?",
+        "options": {
+            "a": "Communication Plan",
+            "b": "RACI Matrix",
+            "c": "Issue Management Plan",
+            "d": "Resource Plan"
+        },
+        "correct_answer": "Resource Plan",
+        "explanation": "Components of a stakeholder engagement plan include a communication plan, RACI matrix, and issue management plan. A resource plan is not a component of a stakeholder engagement plan."
+    },
+    {
+        "id": 5,
+        "question": "Which of the following is not a technique used in Requirements Analysis?",
+        "options": {
+            "a": "Data Modeling",
+            "b": "Gap Analysis",
+            "c": "Business Rules Analysis",
+            "d": "Change Management"
+        },
+        "correct_answer": "Change Management",
+        "explanation": "Techniques used in requirements analysis include data modeling, gap analysis, and business rules analysis. Change management is not a technique used in requirements analysis."
+    },
+    {
+        "id": 6,
+        "question": "Which of the following is not a component of a Business Case?",
+        "options": {
+            "a": "Cost-Benefit Analysis",
+            "b": "Risk Assessment",
+            "c": "Stakeholder Analysis",
+            "d": "SWOT Analysis"
+        },
+        "correct_answer": "Stakeholder Analysis",
+        "explanation": "Components of a business case include cost-benefit analysis, risk assessment, and SWOT analysis. Stakeholder analysis is not a component of a business case."
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is not a characteristic of an effective Business Process Model?",
+        "options": {
+            "a": "Unambiguous",
+            "b": "Complete",
+            "c": "Consistent",
+            "d": "Redundant"
+        },
+        "correct_answer": "Redundant",
+        "explanation": "Effective business process models should be unambiguous, complete, and consistent. Redundancy in the model can cause confusion and inconsistencies."
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is not a component of a Requirements Package?",
+        "options": {
+            "a": "Business Requirements Document",
+            "b": "Functional Requirements Document",
+            "c": "Non-Functional Requirements Document",
+            "d": "Project Plan"
+        },
+        "correct_answer": "Project Plan",
+        "explanation": "Components of a requirements package include business requirements document, functional requirements document, and non-functional requirements document. A project plan is not a component of a requirements package."
+    },
+    {
+        "id": 9,
+        "question": "Which of the following is not a component of a Requirements Traceability Matrix?",
+        "options": {
+            "a": "Requirements ID",
+            "b": "Requirements Status",
+            "c": "Test Cases",
+            "d": "Issue Log"
+        },
+        "correct_answer": "Issue Log",
+        "explanation": "Components of a requirements traceability matrix include requirements ID, requirements status, and test cases. An issue log is not a component of a requirements traceability matrix."
+    },
+    {
+        "id": 10,
+        "question": "Which of the following is not a technique used in Solution Assessment and Validation?",
+        "options": {
+            "a": "Acceptance Testing",
+            "b": "Benchmarking",
+            "c": "Change Management",
+            "d": "Business Process Reengineering"
+        },
+        "correct_answer": "Business Process Reengineering",
+        "explanation": "Techniques used in solution assessment and validation include acceptance testing, benchmarking, and change management. Business process reengineering is not a technique used"
+    },
+    {
+        "id": 11,
+        "question": "Which of the following is not a component of a Requirements Management Plan?",
+        "options": {
+            "a": "Change Control Process",
+            "b": "Requirements Traceability Matrix",
+            "c": "Vendor Selection Criteria",
+            "d": "Requirements Prioritization Criteria"
+        },
+        "correct_answer": "Vendor Selection Criteria",
+        "explanation": "A Requirements Management Plan typically includes a Change Control Process, a Requirements Traceability Matrix, and Requirements Prioritization Criteria, but not Vendor Selection Criteria."
+    },
+    {
+        "id": 12,
+        "question": "Which of the following is not a characteristic of an effective Use Case?",
+        "options": {
+            "a": "Complete",
+            "b": "Ambiguous",
+            "c": "Testable",
+            "d": "Consistent"
+        },
+        "correct_answer": "Ambiguous",
+        "explanation": "Effective Use Cases should be complete, testable, and consistent. They should not be ambiguous as ambiguity can lead to misunderstandings."
+    },
+    {
+        "id": 13,
+        "question": "Which of the following is a component of a Requirements Package?",
+        "options": {
+            "a": "Business Requirements Document",
+            "b": "Solution Design Document",
+            "c": "Project Charter",
+            "d": "Risk Management Plan"
+        },
+        "correct_answer": "Business Requirements Document",
+        "explanation": "A Requirements Package typically includes a Business Requirements Document, which describes the business needs and requirements of the project."
+    },
+    {
+        "id": 14,
+        "question": "Which of the following is not a component of a Change Request?",
+        "options": {
+            "a": "Description of Change",
+            "b": "Impact Analysis",
+            "c": "Requirements Package",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Change Request typically includes a Description of Change, an Impact Analysis, and a Requirements Package. It may also include other components such as a Risk Management Plan, but not a Project Schedule."
+    },
+    {
+        "id": 15,
+        "question": "Which of the following is not a technique used in Enterprise Analysis?",
+        "options": {
+            "a": "SWOT Analysis",
+            "b": "Cost-Benefit Analysis",
+            "c": "Gap Analysis",
+            "d": "Root Cause Analysis"
+        },
+        "correct_answer": "Root Cause Analysis",
+        "explanation": "Enterprise Analysis typically involves techniques such as SWOT Analysis, Cost-Benefit Analysis, and Gap Analysis, but not Root Cause Analysis."
+    },
+    {
+        "id": 16,
+        "question": "Which of the following is not a characteristic of an effective Stakeholder Engagement Plan?",
+        "options": {
+            "a": "Clear Communication Plan",
+            "b": "Defined Roles and Responsibilities",
+            "c": "No Stakeholder Involvement",
+            "d": "Conflict Resolution Plan"
+        },
+        "correct_answer": "No Stakeholder Involvement",
+        "explanation": "An effective Stakeholder Engagement Plan should have a clear Communication Plan, defined Roles and Responsibilities, and a Conflict Resolution Plan. It should not exclude stakeholder involvement."
+    },
+    {
+        "id": 17,
+        "question": "Which of the following is not a component of a Business Process Model?",
+        "options": {
+            "a": "Swimlane Diagram",
+            "b": "Process Flow Diagram",
+            "c": "Use Case Diagram",
+            "d": "Activity Diagram"
+        },
+        "correct_answer": "Use Case Diagram",
+        "explanation": "Components of a Business Process Model typically include Swimlane Diagrams, Process Flow Diagrams, and Activity Diagrams, but not Use Case Diagrams."
+    },
+    {
+        "id": 18,
+        "question": "Which of the following is not a component of a Risk Management Plan?",
+        "options": {
+            "a": "Risk Identification",
+            "b": "Risk Analysis",
+            "c": "Risk Mitigation",
+            "d": "Change Control Process"
+        },
+        "correct_answer": "Change Control Process",
+        "explanation": "Components of a Risk Management Plan typically include Risk Identification, Risk Analysis, and Risk Mitigation, but not a Change Control Process."
+    },
+    {
+        "id": 19,
+        "question": "Which of the following is not a component of a Requirements Analysis Report?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Business Process Model",
+            "c": "Project Schedule",
+            "d": "Use Cases"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "Components of a Requirements Analysis Report typically include a Requirements Traceability Matrix, a Business Process Model, and Use Cases, but not a Project Schedule."
+    },
+    {
+        "id": 20,
+        "question": "Which of the following is not a characteristic of an effective Requirements Management Plan?",
+        "options": {
+            "a": "Change Control Process",
+            "b": "Requirements Prioritization Criteria",
+            "c": "No Requirements Traceability",
+            "d": "Requirements Baseline"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Requirements Management Plan should have a Change Control Process, Requirements Prioritization Criteria, and a Requirements Baseline. It should not lack Requirements Traceability, which is necessary to track changes and ensure all requirements are met."
+    },
+    {
+        "id": 21,
+        "question": "Which of the following is not a technique used in Requirements Validation?",
+        "options": {
+            "a": "Acceptance Testing",
+            "b": "User Acceptance Testing",
+            "c": "Walkthroughs",
+            "d": "Root Cause Analysis"
+        },
+        "correct_answer": "Root Cause Analysis",
+        "explanation": "Root Cause Analysis is not a technique used in requirements validation. Root cause analysis is a problem-solving technique used to identify the underlying causes of problems or issues. In requirements validation, the techniques used include acceptance testing, user acceptance testing, and walkthroughs."
+    },
+    {
+        "id": 22,
+        "question": "Which of the following is not a component of a Stakeholder Analysis?",
+        "options": {
+            "a": "Stakeholder Identification",
+            "b": "Stakeholder Engagement Plan",
+            "c": "Stakeholder Communication Plan",
+            "d": "Stakeholder Prioritization"
+        },
+        "correct_answer": "Stakeholder Engagement Plan",
+        "explanation": "A Stakeholder Analysis typically includes the identification, prioritization, and communication plan for stakeholders. While stakeholder engagement is important, it is not a component of a Stakeholder Analysis."
+    },
+    {
+        "id": 23,
+        "question": "Which of the following is not a characteristic of an effective Test Plan?",
+        "options": {
+            "a": "Complete",
+            "b": "Unambiguous",
+            "c": "Incomplete",
+            "d": "Testable"
+        },
+        "correct_answer": "Incomplete",
+        "explanation": "A Test Plan should be complete, unambiguous, and testable. An incomplete Test Plan would not provide sufficient guidance for testing and could result in missed defects."
+    },
+    {
+        "id": 24,
+        "question": "Which of the following is not a component of a Solution Design Document?",
+        "options": {
+            "a": "Functional Design",
+            "b": "Technical Design",
+            "c": "Change Management Plan",
+            "d": "Data Model"
+        },
+        "correct_answer": "Change Management Plan",
+        "explanation": "A Solution Design Document typically includes the functional and technical design, data model, and other technical details related to the solution. The Change Management Plan is typically included in the Project Plan."
+    },
+    {
+        "id": 25,
+        "question": "Which of the following is not a technique used in Requirements Prioritization?",
+        "options": {
+            "a": "MoSCoW",
+            "b": "Kano Analysis",
+            "c": "Pareto Analysis",
+            "d": "Change Control Process"
+        },
+        "correct_answer": "Change Control Process",
+        "explanation": "Requirements Prioritization techniques typically include MoSCoW, Kano Analysis, Pareto Analysis, and other prioritization models. Change Control Process is not a prioritization technique."
+    },
+    {
+        "id": 26,
+        "question": "Which of the following is not a component of a Requirements Management System?",
+        "options": {
+            "a": "Requirements Repository",
+            "b": "Requirements Traceability Matrix",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Management System typically includes a Requirements Repository, Requirements Traceability Matrix, Change Control Process, and other tools and processes for managing requirements. The Project Schedule is typically managed separately."
+    },
+    {
+        "id": 27,
+        "question": "Which of the following is not a characteristic of an effective Risk Management Plan?",
+        "options": {
+            "a": "Risk Identification",
+            "b": "Risk Mitigation",
+            "c": "No Risk Analysis",
+            "d": "Risk Monitoring and Control"
+        },
+        "correct_answer": "No Risk Analysis",
+        "explanation": "A Risk Management Plan should include risk identification, analysis, mitigation, and monitoring and control. Omitting risk analysis could lead to ineffective risk management."
+    },
+    {
+        "id": 28,
+        "question": "Which of the following is not a component of a Requirements Validation Report?",
+        "options": {
+            "a": "Test Results",
+            "b": "Requirements Traceability Matrix",
+            "c": "Use Cases",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Validation Report should include test results, Requirements Traceability Matrix, Use Cases, and other details related to requirements validation. The Project Schedule is not typically included."
+    },
+    {
+        "id": 29,
+        "question": "Which of the following is not a technique used in Solution Design?",
+        "options": {
+            "a": "Data Modeling",
+            "b": "Business Rules Analysis",
+            "c": "Stakeholder Analysis",
+            "d": "Change Management"
+        },
+        "correct_answer": "Change Management",
+        "explanation": "Solution Design techniques typically include Data Modeling, Business Rules Analysis, Stakeholder Analysis, and other design techniques. Change Management is typically a part of Solution Implementation."
+    },
+    {
+        "id": 30,
+        "question": "Which of the following is not a component of a Requirements Communication Plan?",
+        "options": {
+            "a": "Stakeholder Analysis",
+            "b": "Communication Channels",
+            "c": "Frequency of Communication",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Communication Plan should include Stakeholder Analysis, Communication Channels, Frequency of Communication, and other details related to requirements communication. The Project Schedule is not typically included."
+    },
+    {
+        "id": 31,
+        "question": "Which of the following is not a characteristic of an effective Business Case?",
+        "options": {
+            "a": "Clear Objectives",
+            "b": "Cost-Benefit Analysis",
+            "c": "No Risk Assessment",
+            "d": "Stakeholder Analysis"
+        },
+        "correct_answer": "No Risk Assessment",
+        "explanation": "An effective Business Case should include clear objectives, cost-benefit analysis, risk assessment, stakeholder analysis, and other relevant details. Omitting risk assessment could lead to ineffective decision-making."
+    },
+    {
+        "id": 32,
+        "question": "Which of the following is not a component of a Change Management Plan?",
+        "options": {
+            "a": "Change Control Process",
+            "b": "Change Request Form",
+            "c": "Change Advisory Board",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Change Management Plan typically includes a Change Control Process, Change Request Form, Change Advisory Board, and other details related to managing changes. The Project Schedule is not typically included."
+    },
+    {
+        "id": 33,
+        "question": "Which of the following is not a characteristic of an effective Business Process Model?",
+        "options": {
+            "a": "Clear and Concise",
+            "b": "Testable",
+            "c": "Unambiguous",
+            "d": "Redundant"
+        },
+        "correct_answer": "Redundant",
+        "explanation": "An effective Business Process Model should be clear and concise, testable, unambiguous, and should not contain redundancies."
+    },
+    {
+        "id": 34,
+        "question": "Which of the following is not a component of a Requirements Review Checklist?",
+        "options": {
+            "a": "Compliance with Standards",
+            "b": "Completeness",
+            "c": "Change Control Process",
+            "d": "Testability"
+        },
+        "correct_answer": "Change Control Process",
+        "explanation": "A Requirements Review Checklist typically includes items such as compliance with standards, completeness, testability, and other relevant criteria. Change Control Process is not typically included."
+    },
+    {
+        "id": 35,
+        "question": "Which of the following is not a technique used in Solution Implementation?",
+        "options": {
+            "a": "User Acceptance Testing",
+            "b": "Change Management",
+            "c": "Gap Analysis",
+            "d": "Business Process Reengineering"
+        },
+        "correct_answer": "Gap Analysis",
+        "explanation": "Solution Implementation techniques typically include User Acceptance Testing, Change Management, Business Process Reengineering, and other implementation techniques. Gap Analysis is typically part of Requirements Analysis."
+    },
+    {
+        "id": 36,
+        "question": "Which of the following is not a component of a Requirements Validation Plan?",
+        "options": {
+            "a": "Test Plan",
+            "b": "Test Cases",
+            "c": "Requirements Traceability Matrix",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Validation Plan typically includes a Test Plan, Test Cases, Requirements Traceability Matrix, and other details related to requirements validation. The Project Schedule is not typically included."
+    },
+    {
+        "id": 37,
+        "question": "Which of the following is not a characteristic of an effective Requirements Prioritization Criteria?",
+        "options": {
+            "a": "Business Value",
+            "b": "Technical Feasibility",
+            "c": "Resource Availability",
+            "d": "No Cost-Benefit Analysis"
+        },
+        "correct_answer": "No Cost-Benefit Analysis",
+        "explanation": "Requirements Prioritization Criteria should include business value, technical feasibility, resource availability, cost-benefit analysis, and other relevant criteria. Omitting cost-benefit analysis could lead to ineffective prioritization."
+    },
+    {
+        "id": 38,
+        "question": "Which of the following is not a component of a Requirements Change Request?",
+        "options": {
+            "a": "Description of Change",
+            "b": "Impact Analysis",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Change Request typically includes a description of change, impact analysis, change control process, and other relevant details. The Project Schedule is not typically included."
+    },
+    {
+        "id": 39,
+        "question": "Which of the following is not a component of a Requirements Analysis Plan?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Use Case Diagrams",
+            "c": "Business Process Model",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Analysis Plan typically includes a Requirements Traceability Matrix, Use Case Diagrams, Business Process Model, and other relevant details. The Project Schedule is not typically included."
+    },
+    {
+        "id": 40,
+        "question": "Which of the following is not a characteristic of an effective Requirements Traceability Matrix?",
+        "options": {
+            "a": "Clear Requirements ID",
+            "b": "Requirements Status",
+            "c": "No Link to Business Objectives",
+            "d": "Test Cases"
+        },
+        "correct_answer": "No Link to Business Objectives",
+        "explanation": "An effective Requirements Traceability Matrix should include clear requirements ID, requirements status, test cases, and should be linked to business objectives. Omitting the link to business objectives could result in misaligned requirements."
+    },
+    {
+        "id": 41,
+        "question": "Which of the following is not a technique used in Requirements Elicitation?",
+        "options": {
+            "a": "Interviews",
+            "b": "Focus Groups",
+            "c": "Brainstorming",
+            "d": "Change Control Process"
+        },
+        "correct_answer": "Change Control Process",
+        "explanation": "Requirements Elicitation techniques typically include interviews, focus groups, brainstorming, and other techniques that help to gather requirements from stakeholders. Change Control Process is not a requirements elicitation technique."
+    },
+    {
+        "id": 42,
+        "question": "Which of the following is not a component of a Requirements Document?",
+        "options": {
+            "a": "Functional Requirements",
+            "b": "Non-Functional Requirements",
+            "c": "Change Management Plan",
+            "d": "Business Rules"
+        },
+        "correct_answer": "Change Management Plan",
+        "explanation": "A Requirements Document typically includes functional requirements, non-functional requirements, business rules, and other relevant details related to requirements. The Change Management Plan is typically included in the Project Plan."
+    },
+    {
+        "id": 43,
+        "question": "Which of the following is not a characteristic of an effective Requirements Management Plan?",
+        "options": {
+            "a": "Requirements Traceability",
+            "b": "Change Control Process",
+            "c": "No Requirements Prioritization",
+            "d": "Requirements Repository"
+        },
+        "correct_answer": "No Requirements Prioritization",
+        "explanation": "An effective Requirements Management Plan should include requirements traceability, change control process, requirements prioritization, requirements repository, and other relevant details. Omitting requirements prioritization could lead to ineffective requirements management."
+    },
+    {
+        "id": 44,
+        "question": "Which of the following is not a component of a Requirements Review Plan?",
+        "options": {
+            "a": "Review Schedule",
+            "b": "Review Criteria",
+            "c": "Review Team",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Review Plan typically includes a review schedule, review criteria, review team, and other relevant details related to requirements review. The Project Schedule is not typically included."
+    },
+    {
+        "id": 45,
+        "question": "Which of the following is not a characteristic of an effective Business Requirements Document?",
+        "options": {
+            "a": "Clear and Concise",
+            "b": "Testable",
+            "c": "Complete",
+            "d": "No Requirements Traceability"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Business Requirements Document should be clear and concise, testable, complete, and should include requirements traceability."
+    },
+    {
+        "id": 46,
+        "question": "Which of the following is not a component of a Requirements Sign-Off Document?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Test Results",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Sign-Off Document typically includes requirements traceability matrix, test results, change control process, and other details related to requirements sign-off. The Project Schedule is not typically included."
+    },
+    {
+        "id": 47,
+        "question": "Which of the following is not a technique used in Requirements Analysis?",
+        "options": {
+            "a": "Data Modeling",
+            "b": "Gap Analysis",
+            "c": "SWOT Analysis",
+            "d": "Stakeholder Analysis"
+        },
+        "correct_answer": "SWOT Analysis",
+        "explanation": "Requirements Analysis techniques typically include data modeling, gap analysis, stakeholder analysis, and other techniques that help to analyze requirements. SWOT Analysis is typically used for strategic planning."
+    },
+    {
+        "id": 48,
+        "question": "Which of the following is not a component of a Requirements Validation Plan?",
+        "options": {
+            "a": "Test Plan",
+            "b": "Test Cases",
+            "c": "Requirements Traceability Matrix",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Validation Plan typically includes a test plan, test cases, requirements traceability matrix, and other relevant details related to requirements validation. The Project Schedule is not typically included."
+    },
+    {
+        "id": 49,
+        "question": "Which of the following is not a characteristic of an effective Requirements Specification?",
+        "options": {
+            "a": "Unambiguous",
+            "b": "Comprehensive",
+            "c": "No Requirements Traceability",
+            "d": "Testable"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Requirements Specification should be unambiguous, comprehensive, testable, and should include requirements traceability."
+    },
+    {
+        "id": 50,
+        "question": "Which of the following is not a component of a Requirements Package?",
+        "options": {
+            "a": "Requirements Specification",
+            "b": "Requirements Traceability Matrix",
+            "c": "Use Case Diagrams",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Package typically includes a requirements specification, requirements traceability matrix, use case diagrams, and other relevant details related to requirements. The Project Schedule is not typically included."
+    },
+    {
+        "id": 51,
+        "question": "Which of the following is not a technique used in Requirements Prioritization?",
+        "options": {
+            "a": "MoSCoW Method",
+            "b": "Kano Model",
+            "c": "Pareto Analysis",
+            "d": "Cost-Benefit Analysis"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Prioritization techniques typically include MoSCoW Method, Kano Model, Pareto Analysis, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 52,
+        "question": "Which of the following is not a component of a Requirements Management Plan?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Change Control Process",
+            "c": "Requirements Prioritization",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Management Plan typically includes requirements traceability matrix, change control process, requirements prioritization, and other relevant details related to requirements management. The Project Schedule is typically included in the Project Plan."
+    },
+    {
+        "id": 53,
+        "question": "Which of the following is not a characteristic of an effective Change Control Process?",
+        "options": {
+            "a": "Clearly Defined Roles and Responsibilities",
+            "b": "No Impact Analysis",
+            "c": "Formal Approval Process",
+            "d": "Requirements Traceability"
+        },
+        "correct_answer": "No Impact Analysis",
+        "explanation": "An effective Change Control Process should include clearly defined roles and responsibilities, formal approval process, requirements traceability, and other relevant details. Omitting impact analysis could lead to ineffective change control."
+    },
+    {
+        "id": 54,
+        "question": "Which of the following is not a component of a Requirements Traceability Matrix?",
+        "options": {
+            "a": "Requirements ID",
+            "b": "Test Cases",
+            "c": "Change Requests",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Traceability Matrix typically includes requirements ID, test cases, change requests, and other relevant details related to requirements traceability. The Project Schedule is not typically included."
+    },
+    {
+        "id": 55,
+        "question": "Which of the following is not a characteristic of an effective Requirements Gathering Plan?",
+        "options": {
+            "a": "Clearly Defined Objectives",
+            "b": "Stakeholder Involvement",
+            "c": "No Requirements Prioritization",
+            "d": "Requirements Elicitation Techniques"
+        },
+        "correct_answer": "No Requirements Prioritization",
+        "explanation": "An effective Requirements Gathering Plan should include clearly defined objectives, stakeholder involvement, requirements prioritization, requirements elicitation techniques, and other relevant details. Omitting requirements prioritization could lead to ineffective requirements gathering."
+    },
+    {
+        "id": 56,
+        "question": "Which of the following is not a component of a Requirements Specification Document?",
+        "options": {
+            "a": "Functional Requirements",
+            "b": "Non-Functional Requirements",
+            "c": "Requirements Traceability Matrix",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Specification Document typically includes functional requirements, non-functional requirements, requirements traceability matrix, and other relevant details related to requirements. The Project Schedule is not typically included."
+    },
+    {
+        "id": 57,
+        "question": "Which of the following is not a characteristic of an effective Requirements Validation Plan?",
+        "options": {
+            "a": "Testable Requirements",
+            "b": "Requirements Traceability",
+            "c": "No Test Plan",
+            "d": "Clear Acceptance Criteria"
+        },
+        "correct_answer": "No Test Plan",
+        "explanation": "An effective Requirements Validation Plan should include testable requirements, requirements traceability, clear acceptance criteria, and other relevant details. Omitting test plan could lead to ineffective requirements validation."
+    },
+    {
+        "id": 58,
+        "question": "Which of the following is not a technique used in Requirements Verification?",
+        "options": {
+            "a": "Inspection",
+            "b": "Peer Review",
+            "c": "Testing",
+            "d": "Cost-Benefit Analysis"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Verification techniques typically include inspection, peer review, testing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 59,
+        "question": "Which of the following is not a component of a Requirements Sign-Off Document?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Test Results",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Sign-Off Document typically includes requirements traceability matrix, test results, change control process, and other relevant details related to requirements sign-off. The Project Schedule is not typically included."
+    },
+    {
+        "id": 60,
+        "question": "Which of the following is not a characteristic of an effective Requirements Analysis Report?",
+        "options": {
+            "a": "Clear and Concise",
+            "b": "Comprehensive",
+            "c": "Testable Requirements",
+            "d": "No Requirements Traceability"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Requirements Analysis Report should be clear and concise, comprehensive, include testable requirements, and should have requirements traceability. Omitting requirements traceability could lead to misaligned requirements."
+    },
+    {
+        "id": 61,
+        "question": "Which of the following is not a component of a Requirements Package?",
+        "options": {
+            "a": "Business Requirements Document",
+            "b": "Use Case Diagrams",
+            "c": "Project Schedule",
+            "d": "Solution Design Document"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Package typically includes a business requirements document, use case diagrams, solution design document, and other relevant details related to requirements. The project schedule is not typically included."
+    },
+    {
+        "id": 62,
+        "question": "Which of the following is not a characteristic of an effective Requirements Review?",
+        "options": {
+            "a": "Clear Objectives",
+            "b": "No Stakeholder Involvement",
+            "c": "Comprehensive Review Criteria",
+            "d": "Formal Review Process"
+        },
+        "correct_answer": "No Stakeholder Involvement",
+        "explanation": "An effective requirements review should include clear objectives, stakeholder involvement, comprehensive review criteria, and formal review process. Omitting stakeholder involvement could lead to ineffective requirements review."
+    },
+    {
+        "id": 63,
+        "question": "Which of the following is not a technique used in Requirements Prioritization?",
+        "options": {
+            "a": "Weighted Ranking",
+            "b": "Cost-Benefit Analysis",
+            "c": "Business Value Analysis",
+            "d": "Timeboxing"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Prioritization techniques typically include weighted ranking, business value analysis, timeboxing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 64,
+        "question": "Which of the following is not a component of a Requirements Traceability Matrix?",
+        "options": {
+            "a": "Requirements ID",
+            "b": "Test Cases",
+            "c": "Change Requests",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Traceability Matrix typically includes requirements ID, test cases, change requests, and other relevant details related to requirements traceability. The project schedule is not typically included."
+    },
+    {
+        "id": 65,
+        "question": "Which of the following is not a characteristic of an effective Requirements Gathering Plan?",
+        "options": {
+            "a": "Clearly Defined Objectives",
+            "b": "Stakeholder Involvement",
+            "c": "Requirements Prioritization",
+            "d": "No Requirements Elicitation Techniques"
+        },
+        "correct_answer": "No Requirements Elicitation Techniques",
+        "explanation": "An effective Requirements Gathering Plan should include clearly defined objectives, stakeholder involvement, requirements prioritization, requirements elicitation techniques, and other relevant details. Omitting requirements elicitation techniques could lead to ineffective requirements gathering."
+    },
+    {
+        "id": 66,
+        "question": "Which of the following is not a component of a Requirements Specification Document?",
+        "options": {
+            "a": "Functional Requirements",
+            "b": "Non-Functional Requirements",
+            "c": "Requirements Traceability Matrix",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Specification Document typically includes functional requirements, non-functional requirements, requirements traceability matrix, and other relevant details related to requirements. The Project Schedule is not typically included."
+    },
+    {
+        "id": 67,
+        "question": "Which of the following is not a characteristic of an effective Requirements Validation Plan?",
+        "options": {
+            "a": "Testable Requirements",
+            "b": "Requirements Traceability",
+            "c": "Clear Acceptance Criteria",
+            "d": "No Test Plan"
+        },
+        "correct_answer": "No Test Plan",
+        "explanation": "An effective Requirements Validation Plan should include testable requirements, requirements traceability, clear acceptance criteria, and other relevant details. Omitting a test plan could lead to ineffective requirements validation."
+    },
+    {
+        "id": 68,
+        "question": "Which of the following is not a technique used in Requirements Verification?",
+        "options": {
+            "a": "Inspection",
+            "b": "Peer Review",
+            "c": "Testing",
+            "d": "Cost-Benefit Analysis"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Verification techniques typically include inspection, peer review, testing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 69,
+        "question": "Which of the following is not a component of a Requirements Sign-Off Document?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Test Results",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Sign-Off Document typically includes requirements traceability matrix, test results, change control process, and other relevant details related to requirements sign-off. The Project Schedule is not typically included."
+    },
+    {
+        "id": 70,
+        "question": "Which of the following is not a characteristic of an effective Requirements Analysis Report?",
+        "options": {
+            "a": "Clear and Concise",
+            "b": "Comprehensive",
+            "c": "Testable Requirements",
+            "d": "No Requirements Traceability"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Requirements Analysis Report should be clear and concise, comprehensive, include testable requirements, and should have requirements traceability. Omitting requirements traceability could lead to misaligned requirements."
+    },
+    {
+        "id": 71,
+        "question": "Which of the following is not a component of a Requirements Package?",
+        "options": {
+            "a": "Business Requirements Document",
+            "b": "Use Case Diagrams",
+            "c": "Project Schedule",
+            "d": "Solution Design Document"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Package typically includes a business requirements document, use case diagrams, solution design document, and other relevant details related to requirements. The project schedule is not typically included."
+    },
+    {
+        "id": 72,
+        "question": "Which of the following is not a characteristic of an effective Requirements Review?",
+        "options": {
+            "a": "Clear Objectives",
+            "b": "No Stakeholder Involvement",
+            "c": "Comprehensive Review Criteria",
+            "d": "Formal Review Process"
+        },
+        "correct_answer": "No Stakeholder Involvement",
+        "explanation": "An effective requirements review should include clear objectives, stakeholder involvement, comprehensive review criteria, and formal review process. Omitting stakeholder involvement could lead to ineffective requirements review."
+    },
+    {
+        "id": 73,
+        "question": "Which of the following is not a technique used in Requirements Prioritization?",
+        "options": {
+            "a": "Weighted Ranking",
+            "b": "Cost-Benefit Analysis",
+            "c": "Business Value Analysis",
+            "d": "Timeboxing"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Prioritization techniques typically include weighted ranking, business value analysis, timeboxing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 74,
+        "question": "Which of the following is not a component of a Requirements Traceability Matrix?",
+        "options": {
+            "a": "Requirements ID",
+            "b": "Test Cases",
+            "c": "Change Requests",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Traceability Matrix typically includes requirements ID, test cases, change requests, and other relevant details related to requirements traceability. The project schedule is not typically included."
+    },
+    {
+        "id": 75,
+        "question": "Which of the following is not a characteristic of an effective Requirements Gathering Plan?",
+        "options": {
+            "a": "Clearly Defined Objectives",
+            "b": "Stakeholder Involvement",
+            "c": "Requirements Prioritization",
+            "d": "No Requirements Elicitation Techniques"
+        },
+        "correct_answer": "No Requirements Elicitation Techniques",
+        "explanation": "An effective Requirements Gathering Plan should include clearly defined objectives, stakeholder involvement, requirements prioritization, requirements elicitation techniques, and other relevant details. Omitting requirements elicitation techniques could lead to ineffective requirements gathering."
+    },
+    {
+        "id": 76,
+        "question": "Which of the following is not a component of a Requirements Specification Document?",
+        "options": {
+            "a": "Functional Requirements",
+            "b": "Non-Functional Requirements",
+            "c": "Requirements Traceability Matrix",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Specification Document typically includes functional requirements, non-functional requirements, requirements traceability matrix, and other relevant details related to requirements. The Project Schedule is not typically included."
+    },
+    {
+        "id": 77,
+        "question": "Which of the following is not a characteristic of an effective Requirements Validation Plan?",
+        "options": {
+            "a": "Testable Requirements",
+            "b": "Requirements Traceability",
+            "c": "Clear Acceptance Criteria",
+            "d": "No Test Plan"
+        },
+        "correct_answer": "No Test Plan",
+        "explanation": "An effective Requirements Validation Plan should include testable requirements, requirements traceability, clear acceptance criteria, and other relevant details. Omitting a test plan could lead to ineffective requirements validation."
+    },
+    {
+        "id": 78,
+        "question": "Which of the following is not a technique used in Requirements Verification?",
+        "options": {
+            "a": "Inspection",
+            "b": "Peer Review",
+            "c": "Testing",
+            "d": "Cost-Benefit Analysis"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Verification techniques typically include inspection, peer review, testing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 79,
+        "question": "Which of the following is not a component of a Requirements Sign-Off Document?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Test Results",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Sign-Off Document typically includes requirements traceability matrix, test results, change control process, and other relevant details related to requirements sign-off. The Project Schedule is not typically included."
+    },
+    {
+        "id": 80,
+        "question": "Which of the following is not a characteristic of an effective Requirements Analysis Report?",
+        "options": {
+            "a": "Clear and Concise",
+            "b": "Comprehensive",
+            "c": "Testable Requirements",
+            "d": "No Requirements Traceability"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Requirements Analysis Report should be clear and concise, comprehensive, include testable requirements, and should have requirements traceability. Omitting requirements traceability could lead to misaligned requirements."
+    },
+    {
+        "id": 81,
+        "question": "Which of the following is not a component of a Requirements Package?",
+        "options": {
+            "a": "Business Requirements Document",
+            "b": "Use Case Diagrams",
+            "c": "Project Schedule",
+            "d": "Solution Design Document"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Package typically includes a business requirements document, use case diagrams, solution design document, and other relevant details related to requirements. The project schedule is not typically included."
+    },
+    {
+        "id": 82,
+        "question": "Which of the following is not a characteristic of an effective Requirements Review?",
+        "options": {
+            "a": "Clear Objectives",
+            "b": "No Stakeholder Involvement",
+            "c": "Comprehensive Review Criteria",
+            "d": "Formal Review Process"
+        },
+        "correct_answer": "No Stakeholder Involvement",
+        "explanation": "An effective requirements review should include clear objectives, stakeholder involvement, comprehensive review criteria, and formal review process. Omitting stakeholder involvement could lead to ineffective requirements review."
+    },
+    {
+        "id": 83,
+        "question": "Which of the following is not a technique used in Requirements Prioritization?",
+        "options": {
+            "a": "Weighted Ranking",
+            "b": "Cost-Benefit Analysis",
+            "c": "Business Value Analysis",
+            "d": "Timeboxing"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Prioritization techniques typically include weighted ranking, business value analysis, timeboxing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 84,
+        "question": "Which of the following is not a component of a Requirements Traceability Matrix?",
+        "options": {
+            "a": "Requirements ID",
+            "b": "Test Cases",
+            "c": "Change Requests",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Traceability Matrix typically includes requirements ID, test cases, change requests, and other relevant details related to requirements traceability. The project schedule is not typically included."
+    },
+    {
+        "id": 85,
+        "question": "Which of the following is not a characteristic of an effective Requirements Gathering Plan?",
+        "options": {
+            "a": "Clearly Defined Objectives",
+            "b": "Stakeholder Involvement",
+            "c": "Requirements Prioritization",
+            "d": "No Requirements Elicitation Techniques"
+        },
+        "correct_answer": "No Requirements Elicitation Techniques",
+        "explanation": "An effective Requirements Gathering Plan should include clearly defined objectives, stakeholder involvement, requirements prioritization, requirements elicitation techniques, and other relevant details. Omitting requirements elicitation techniques could lead to ineffective requirements gathering."
+    },
+    {
+        "id": 86,
+        "question": "Which of the following is not a component of a Requirements Specification Document?",
+        "options": {
+            "a": "Functional Requirements",
+            "b": "Non-Functional Requirements",
+            "c": "Requirements Traceability Matrix",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Specification Document typically includes functional requirements, non-functional requirements, requirements traceability matrix, and other relevant details related to requirements. The Project Schedule is not typically included."
+    },
+    {
+        "id": 87,
+        "question": "Which of the following is not a characteristic of an effective Requirements Validation Plan?",
+        "options": {
+            "a": "Testable Requirements",
+            "b": "Requirements Traceability",
+            "c": "Clear Acceptance Criteria",
+            "d": "No Test Plan"
+        },
+        "correct_answer": "No Test Plan",
+        "explanation": "An effective Requirements Validation Plan should include testable requirements, requirements traceability, clear acceptance criteria, and other relevant details. Omitting a test plan could lead to ineffective requirements validation."
+    },
+    {
+        "id": 88,
+        "question": "Which of the following is not a technique used in Requirements Verification?",
+        "options": {
+            "a": "Inspection",
+            "b": "Peer Review",
+            "c": "Testing",
+            "d": "Cost-Benefit Analysis"
+        },
+        "correct_answer": "Cost-Benefit Analysis",
+        "explanation": "Requirements Verification techniques typically include inspection, peer review, testing, and other relevant techniques. Cost-Benefit Analysis is typically used for assessing project feasibility."
+    },
+    {
+        "id": 89,
+        "question": "Which of the following is not a component of a Requirements Sign-Off Document?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Test Results",
+            "c": "Change Control Process",
+            "d": "Project Schedule"
+        },
+        "correct_answer": "Project Schedule",
+        "explanation": "A Requirements Sign-Off Document typically includes requirements traceability matrix, test results, change control process, and other relevant details related to requirements sign-off. The Project Schedule is not typically included."
+    },
+    {
+        "id": 90,
+        "question": "Which of the following is not a characteristic of an effective Requirements Analysis Report?",
+        "options": {
+            "a": "Clear and Concise",
+            "b": "Comprehensive",
+            "c": "Testable Requirements",
+            "d": "No Requirements Traceability"
+        },
+        "correct_answer": "No Requirements Traceability",
+        "explanation": "An effective Requirements Analysis Report should be clear and concise, comprehensive, include testable requirements, and should have requirements traceability. Omitting requirements traceability could lead to misaligned requirements."
+    },
+    {
+        "id": 91,
+        "question": "What is the difference between a Business Analyst and a Project Manager?",
+        "options": {
+            "a": "A Business Analyst focuses on planning, executing, and delivering projects, while a Project Manager focuses on defining and documenting business requirements.",
+            "b": "A Business Analyst focuses on defining and documenting business requirements, while a Project Manager focuses on planning, executing, and delivering projects.",
+            "c": "A Business Analyst and a Project Manager have the exact same roles and responsibilities.",
+            "d": "A Business Analyst and a Project Manager never work together on the same project."
+        },
+        "correct_answer": "A Business Analyst focuses on defining and documenting business requirements, while a Project Manager focuses on planning, executing, and delivering projects.",
+        "explanation": "A Business Analyst focuses on defining and documenting business requirements, while a Project Manager focuses on planning, executing, and delivering projects."
+    },
+    {
+        "id": 92,
+        "question": "What is a Use Case Diagram?",
+        "options": {
+            "a": "A visual representation of the interactions between actors and a system or application.",
+            "b": "A document that maps the requirements to the different stages of the project or system development lifecycle.",
+            "c": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+            "d": "A specific statement that defines or constrains a business process or activity."
+        },
+        "correct_answer": "A visual representation of the interactions between actors and a system or application.",
+        "explanation": "A use case diagram is a graphical representation that illustrates the interactions between actors (users or external systems) and a system or application. It depicts the various use cases, actors involved, and the relationships between them to provide an overview of how the system will be used in real-world scenarios."
+    },
+    {
+        "id": 93,
+        "question": "What is Requirements Elicitation?",
+        "options": {
+            "a": "The process of gathering information from stakeholders in order to identify and define the business requirements for a project or system.",
+            "b": "A specific statement that defines or constrains a business process or activity.",
+            "c": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+            "d": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements."
+        },
+        "correct_answer": "The process of gathering information from stakeholders in order to identify and define the business requirements for a project or system.",
+        "explanation": "Requirements elicitation is the process of engaging stakeholders and gathering information to understand their needs, preferences, and expectations. It involves techniques such as interviews, surveys, workshops, and observations to identify and define the business requirements for a project or system."
+    },
+    {
+        "id": 94,
+        "question": "What is a Business Rule?",
+        "options": {
+            "a": "A specific statement that defines or constrains a business process or activity.",
+            "b": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+            "c": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements.",
+            "d": "A visual representation of the interactions between actors and a system or application."
+        },
+        "correct_answer": "A specific statement that defines or constrains a business process or activity.",
+        "explanation": "A business rule is a specific statement that defines or constrains a business process or activity. It establishes the guidelines, constraints, conditions, or policies that govern the behavior or operations of an organization. Business rules are used to ensure consistency, compliance, and proper functioning within the business context."
+    },
+    {
+        "id": 95,
+        "question": "What is a Functional Requirement?",
+        "options": {
+            "a": "A specific statement that defines a feature or function that a system or application must perform in order to meet the business requirements.",
+            "b": "A specific statement that defines or constrains a business process or activity.",
+            "c": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements.",
+            "d": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives."
+        },
+        "correct_answer": "A specific statement that defines a feature or function that a system or application must perform in order to meet the business requirements.",
+        "explanation": "A functional requirement is a specific statement that describes a feature or function that a system or application must possess to meet the business requirements. It defines the behavior, inputs, outputs, and interactions of the system with its users and external entities."
+    },
+    {
+        "id": 96,
+        "question": "What is a Non-Functional Requirement?",
+        "options": {
+            "a": "A specific statement that defines a characteristic or quality that a system or application must possess in order to meet the business requirements.",
+            "b": "A specific statement that defines or constrains a business process or activity.",
+            "c": "A visual representation of the interactions between actors and a system or application.",
+            "d": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements."
+        },
+        "correct_answer": "A specific statement that defines a characteristic or quality that a system or application must possess in order to meet the business requirements.",
+        "explanation": "A non-functional requirement is a specific statement that describes a characteristic or quality that a system or application must possess. Unlike functional requirements that define what the system should do, non-functional requirements define how the system should perform or behave. Examples include performance, security, usability, reliability, and maintainability requirements."
+    },
+    {
+        "id": 97,
+        "question": "What is a Requirements Traceability Matrix?",
+        "options": {
+            "a": "A document that maps the requirements to the different stages of the project or system development lifecycle.",
+            "b": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+            "c": "A specific statement that defines a feature or function that a system or application must perform in order to meet the business requirements.",
+            "d": "A visual representation of the interactions between actors and a system or application."
+        },
+        "correct_answer": "A document that maps the requirements to the different stages of the project or system development lifecycle.",
+        "explanation": "A requirements traceability matrix (RTM) is a document that establishes the relationship between requirements and other stages of the project or system development lifecycle. It maps the requirements to design, implementation, testing, and verification activities, enabling traceability and ensuring that all requirements are addressed throughout the development process."
+    },
+    {
+        "id": 98,
+        "question": "What is a Change Control Process?",
+        "options": {
+            "a": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+            "b": "A specific statement that defines or constrains a business process or activity.",
+            "c": "A visual representation of the interactions between actors and a system or application.",
+            "d": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements."
+        },
+        "correct_answer": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+        "explanation": "A change control process refers to the formalized procedure for managing and documenting changes to the project or system requirements, scope, or objectives. It involves assessing, approving, implementing, and communicating changes while maintaining control and ensuring that the impact on the project is properly managed."
+    },
+    {
+        "id": 99,
+        "question": "What is a Test Plan?",
+        "options": {
+            "a": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements.",
+            "b": "A specific statement that defines or constrains a business process or activity.",
+            "c": "A formal process for managing and documenting changes to the project or system requirements, scope, or objectives.",
+            "d": "A visual representation of the interactions between actors and a system or application."
+        },
+        "correct_answer": "A document that outlines the specific tests and procedures that will be used to verify that a system or application meets the business requirements.",
+        "explanation": "A test plan is a document that outlines the specific tests, procedures, and approaches that will be used to verify that a system or application meets the business requirements. It defines the scope, objectives, test environment, test cases, schedules, and resources required for testing activities during the development or maintenance of a system."
+    },
+    {
+        "id": 100,
+        "question": "Which of these is not a primary output of the Business Analysis Planning and Monitoring knowledge area?",
+        "options": {
+            "a": "Stakeholder List, Map, or Personas",
+            "b": "Business Analysis Plan",
+            "c": "Requirements Management Plan",
+            "d": "Change Management Plan"
+        },
+        "correct_answer": "Stakeholder List, Map, or Personas",
+        "explanation": "The primary outputs of the Business Analysis Planning and Monitoring knowledge area include the Business Analysis Plan, Requirements Management Plan, and Change Management Plan. The Stakeholder List, Map, or Personas is a technique used to identify and analyze stakeholders, but it is not considered a primary output."
+    },
+    {
+        "id": 101,
+        "question": "Which of these is not a tool or technique used in the Business Analysis Planning and Monitoring knowledge area?",
+        "options": {
+            "a": "Risk Analysis",
+            "b": "Communication Plan",
+            "c": "Benchmarking and Market Analysis",
+            "d": "Data Flow Diagrams"
+        },
+        "correct_answer": "Data Flow Diagrams",
+        "explanation": "Data Flow Diagrams are a modeling technique used in other knowledge areas, such as Requirements Analysis and Design Definition, but they are not specifically mentioned as a tool or technique in the Business Analysis Planning and Monitoring knowledge area."
+    },
+    {
+        "id": 102,
+        "question": "What is the purpose of the Stakeholder Engagement Approach?",
+        "options": {
+            "a": "To identify stakeholders and their level of involvement in the project",
+            "b": "To manage stakeholder expectations and ensure their support",
+            "c": "To establish communication channels and feedback mechanisms",
+            "d": "To monitor stakeholder behavior and compliance with project requirements"
+        },
+        "correct_answer": "To manage stakeholder expectations and ensure their support",
+        "explanation": "The Stakeholder Engagement Approach is used to manage stakeholder expectations and ensure their support throughout the project. It involves developing strategies and techniques to engage stakeholders effectively and maintain positive relationships."
+    },
+    {
+        "id": 103,
+        "question": "Which of these is not a characteristic of a good business analysis plan?",
+        "options": {
+            "a": "It is comprehensive and detailed",
+            "b": "It is flexible and adaptable to changes",
+            "c": "It defines roles and responsibilities clearly",
+            "d": "It is focused on technical aspects only"
+        },
+        "correct_answer": "It is focused on technical aspects only",
+        "explanation": "A good business analysis plan should be comprehensive, detailed, flexible, and adaptable to changes. It should also define roles and responsibilities clearly, encompassing both technical and non-technical aspects of the project."
+    },
+    {
+        "id": 104,
+        "question": "Which of these is not a component of the Requirements Management Plan?",
+        "options": {
+            "a": "Requirements Traceability Matrix",
+            "b": "Requirements Prioritization Criteria",
+            "c": "Requirements Validation Plan",
+            "d": "Requirements Catalog"
+        },
+        "correct_answer": "Requirements Catalog",
+        "explanation": "The Requirements Catalog is not typically mentioned as a component of the Requirements Management Plan. However, it is a separate document or artifact that lists and describes the individual requirements in detail."
+    },
+    {
+        "id": 105,
+        "question": "Which of these is not a responsibility of the Business Analyst in the Business Analysis Planning and Monitoring knowledge area?",
+        "options": {
+            "a": "Defining the project scope and objectives",
+            "b": "Identifying stakeholders and their roles",
+            "c": "Developing the project schedule and budget",
+            "d": "Identifying risks and developing contingency plans"
+        },
+        "correct_answer": "Developing the project schedule and budget",
+        "explanation": "While the Business Analyst may provide input and collaborate with other team members in developing the project schedule and budget, the primary responsibility lies with the project manager or project management team."
+    },
+    {
+        "id": 106,
+        "question": "Which of these is not a key success factor in the Business Analysis Planning and Monitoring knowledge area?",
+        "options": {
+            "a": "Clearly defined project scope and objectives",
+            "b": "Strong stakeholder support and engagement",
+            "c": "Effective communication and feedback mechanisms",
+            "d": "Rigorous change control and management processes"
+        },
+        "correct_answer": "Rigorous change control and management processes",
+        "explanation": "Rigorous change control and management processes are indeed a key success factor in the Business Analysis Planning and Monitoring knowledge area. It ensures that changes to requirements are properly evaluated, approved, and managed throughout the project."
+    },
+    {
+        "id": 107,
+        "question": "Which of these is not a factor that should be considered when developing the Business Analysis Plan?",
+        "options": {
+            "a": "Project complexity and size",
+            "b": "Availability of resources and expertise",
+            "c": "Regulatory and legal requirements",
+            "d": "Organizational culture and structure"
+        },
+        "correct_answer": "Organizational culture and structure",
+        "explanation": "Organizational culture and structure should be considered when developing the Business Analysis Plan. Understanding the organization's culture and structure helps in tailoring the business analysis approach and communication strategies accordingly."
+    },
+    {
+        "id": 108,
+        "question": "How does the Business Analyst ensure that the requirements are aligned with the project objectives?",
+        "options": {
+            "a": "By reviewing and validating the requirements with the stakeholders",
+            "b": "By ensuring that the requirements are traceable to the project scope and objectives",
+            "c": "By prioritizing the requirements based on their impact on the project outcomes",
+            "d": "By evaluating the feasibility and viability of the requirements"
+        },
+        "correct_answer": "By ensuring that the requirements are traceable to the project scope and objectives",
+        "explanation": "The Business Analyst ensures that the requirements are aligned with the project objectives by establishing traceability between the requirements and the project scope and objectives. This helps in verifying that the requirements contribute to the desired outcomes."
+    },
+    {
+        "id": 109,
+        "question": "Which of these is not a key element of the Change Management Plan?",
+        "options": {
+            "a": "Change Request Form and Process",
+            "b": "Change Advisory Board and Approval Process",
+            "c": "Change Impact Assessment and Risk Analysis",
+            "d": "Change Control and Tracking System"
+        },
+        "correct_answer": "Change Impact Assessment and Risk Analysis",
+        "explanation": "Change Impact Assessment and Risk Analysis are indeed key elements of the Change Management Plan. They help in evaluating the potential impact of proposed changes and identifying associated risks."
+    },
+    {
+        "id": 110,
+        "question": "Which of these is not a primary output of the Elicitation and Collaboration knowledge area?",
+        "options": {
+            "a": "Requirements Documentation",
+            "b": "Stakeholder Requirements and Expectations",
+            "c": "Business Requirements",
+            "d": "Stakeholder Engagement Plan"
+        },
+        "correct_answer": "Requirements Documentation",
+        "explanation": "Requirements Documentation is not typically mentioned as a primary output of the Elicitation and Collaboration knowledge area. While it is an important artifact, it is usually considered a part of the Requirements Analysis and Design Definition knowledge area."
+    },
+    {
+        "id": 111,
+        "question": "Which of these is not a tool or technique used in the Elicitation and Collaboration knowledge area?",
+        "options": {
+            "a": "Brainstorming",
+            "b": "Interviews and Surveys",
+            "c": "Prototyping and Wireframes",
+            "d": "Resource Allocation and Staffing"
+        },
+        "correct_answer": "Resource Allocation and Staffing",
+        "explanation": "Resource Allocation and Staffing are not typically mentioned as specific tools or techniques used in the Elicitation and Collaboration knowledge area. They are more related to project management and resource management aspects."
+    },
+    {
+        "id": 112,
+        "question": "What is the purpose of the Stakeholder Engagement Plan?",
+        "options": {
+            "a": "To identify and prioritize stakeholders based on their level of influence and interest",
+            "b": "To define how stakeholders will be involved and engaged throughout the project",
+            "c": "To establish communication channels and feedback mechanisms",
+            "d": "To manage stakeholder expectations and ensure their support"
+        },
+        "correct_answer": "To define how stakeholders will be involved and engaged throughout the project",
+        "explanation": "The Stakeholder Engagement Plan outlines the strategies and approaches for involving and engaging stakeholders throughout the project. It defines how stakeholders will be informed, consulted, and involved in the decision-making process."
+    },
+    {
+        "id": 113,
+        "question": "Which of these is not a characteristic of effective elicitation techniques?",
+        "options": {
+            "a": "They are efficient and cost-effective",
+            "b": "They are collaborative and engaging",
+            "c": "They are flexible and adaptable",
+            "d": "They are focused on technical aspects only"
+        },
+        "correct_answer": "They are focused on technical aspects only",
+        "explanation": "Effective elicitation techniques are not solely focused on technical aspects. They should be holistic and consider both technical and non-technical aspects of the project. They should engage stakeholders from various domains and perspectives."
+    },
+    {
+        "id": 114,
+        "question": "Which of these is not a technique used to prioritize requirements?",
+        "options": {
+            "a": "MoSCoW technique",
+            "b": "Kano Analysis",
+            "c": "Pareto Analysis",
+            "d": "Delphi Technique"
+        },
+        "correct_answer": "Delphi Technique",
+        "explanation": "The Delphi Technique is commonly used for consensus building and obtaining expert opinions, but it is not specifically mentioned as a technique used to prioritize requirements. However, the other options (MoSCoW technique, Kano Analysis, and Pareto Analysis) are commonly used for prioritizing requirements."
+    },
+    {
+        "id": 115,
+        "question": "Which of these is not a responsibility of the Business Analyst in the Elicitation and Collaboration knowledge area?",
+        "options": {
+            "a": "Identifying and engaging stakeholders",
+            "b": "Defining and documenting the requirements",
+            "c": "Facilitating and managing the requirements elicitation sessions",
+            "d": "Developing and managing the project schedule and budget"
+        },
+        "correct_answer": "Developing and managing the project schedule and budget",
+        "explanation": "Developing and managing the project schedule and budget are typically the responsibilities of the project manager or project management team, not the Business Analyst. The Business Analyst focuses on requirements elicitation, analysis, and documentation."
+    },
+    {
+        "id": 116,
+        "question": "What is the purpose of the Requirements Traceability Matrix?",
+        "options": {
+            "a": "To ensure that all the requirements are captured and documented",
+            "b": "To track changes to the requirements over time",
+            "c": "To map the requirements to the project scope and objectives",
+            "d": "To trace the requirements from their origin to their implementation"
+        },
+        "correct_answer": "To trace the requirements from their origin to their implementation",
+        "explanation": "The Requirements Traceability Matrix is used to establish and maintain traceability between requirements and other project artifacts. It helps in tracking the origin of requirements, their relationships, and their implementation status throughout the project lifecycle."
+    },
+    {
+        "id": 117,
+        "question": "What is the purpose of the Requirements Workshop?",
+        "options": {
+            "a": "To elicit and validate the requirements from the stakeholders",
+            "b": "To prioritize the requirements based on their impact on the project outcomes",
+            "c": "To define the business rules and constraints that apply to the requirements",
+            "d": "To develop the acceptance criteria and quality metrics for the requirements"
+        },
+        "correct_answer": "To elicit and validate the requirements from the stakeholders",
+        "explanation": "The Requirements Workshop is a collaborative session where stakeholders come together to elicit, analyze, and validate requirements. It aims to gather a collective understanding of the stakeholders' needs and expectations."
+    },
+    {
+        "id": 118,
+        "question": "Which of these is not a key element of effective collaboration with stakeholders?",
+        "options": {
+            "a": "Open and transparent communication",
+            "b": "Trust and mutual respect",
+            "c": "Proactive risk management and mitigation",
+            "d": "Active listening and empathy"
+        },
+        "correct_answer": "Proactive risk management and mitigation",
+        "explanation": "While proactive risk management and mitigation are important aspects of project management, they are not specifically mentioned as key elements of effective collaboration with stakeholders. The other options (open and transparent communication, trust and mutual respect, active listening and empathy) are more directly related to effective collaboration and relationship building with stakeholders."
+    },
+    {
+        "id": 119,
+        "question": "Which technique involves creating a prototype to validate or refine requirements?",
+        "options": {
+            "a": "Use Case Modeling",
+            "b": "User Story Mapping",
+            "c": "Wireframing",
+            "d": "Data Flow Diagramming"
+        },
+        "correct_answer": "Wireframing",
+        "explanation": "Wireframing is a visual representation of the user interface that allows stakeholders to validate and refine requirements. It helps to identify potential design issues before investing significant effort in development."
+    },
+    {
+        "id": 120,
+        "question": "What technique is used to identify the root cause of a problem?",
+        "options": {
+            "a": "Brainstorming",
+            "b": "Fishbone Diagramming",
+            "c": "Root Cause Analysis",
+            "d": "Process Modeling"
+        },
+        "correct_answer": "Root Cause Analysis",
+        "explanation": "Root Cause Analysis is a technique used to identify the underlying reason(s) for a problem. It involves asking \"why?\" repeatedly to uncover the root cause(s) of the problem."
+    },
+    {
+        "id": 121,
+        "question": "Which technique is used to define the behavior of a system from a user's perspective?",
+        "options": {
+            "a": "User Story Mapping",
+            "b": "Data Flow Diagramming",
+            "c": "Use Case Modeling",
+            "d": "Entity Relationship Diagramming"
+        },
+        "correct_answer": "User Story Mapping",
+        "explanation": "User Story Mapping is a technique used to define the behavior of a system from a user's perspective. It involves creating a visual representation of the user's journey through the system."
+    },
+    {
+        "id": 122,
+        "question": "What technique is used to analyze and optimize a process?",
+        "options": {
+            "a": "Brainstorming",
+            "b": "Process Modeling",
+            "c": "Data Flow Diagramming",
+            "d": "Root Cause Analysis"
+        },
+        "correct_answer": "Process Modeling",
+        "explanation": "Process Modeling is a technique used to analyze and optimize a process. It involves creating a visual representation of the process, including its inputs, outputs, and activities."
+    },
+    {
+        "id": 123,
+        "question": "What technique is used to identify the data requirements of a system?",
+        "options": {
+            "a": "Use Case Modeling",
+            "b": "Data Flow Diagramming",
+            "c": "Entity Relationship Diagramming",
+            "d": "State Modeling"
+        },
+        "correct_answer": "Entity Relationship Diagramming",
+        "explanation": "Entity Relationship Diagramming is a technique used to identify the data requirements of a system. It involves creating a visual representation of the entities and their relationships in the system."
+    },
+    {
+        "id": 124,
+        "question": "Which technique is used to identify the interfaces between system components?",
+        "options": {
+            "a": "Data Flow Diagramming",
+            "b": "Use Case Modeling",
+            "c": "Interface Analysis",
+            "d": "Entity Relationship Diagramming"
+        },
+        "correct_answer": "Interface Analysis",
+        "explanation": "Interface Analysis is a technique used to identify the interfaces between system components. It involves analyzing the input and output requirements of each component to identify the interfaces."
+    },
+    {
+        "id": 125,
+        "question": "What technique is used to identify the scope of a project or initiative?",
+        "options": {
+            "a": "Business Model Canvas",
+            "b": "Use Case Modeling",
+            "c": "Mind Mapping",
+            "d": "Stakeholder Analysis"
+        },
+        "correct_answer": "Business Model Canvas",
+        "explanation": "Business Model Canvas is a technique used to identify the scope of a project or initiative. It involves creating a visual representation of the key components of a business model, including customer segments, value propositions, and revenue streams."
+    },
+    {
+        "id": 126,
+        "question": "What technique is used to define the behavior of a system from a technical perspective?",
+        "options": {
+            "a": "Data Flow Diagramming",
+            "b": "Use Case Modeling",
+            "c": "State Modeling",
+            "d": "Entity Relationship Diagramming"
+        },
+        "correct_answer": "Use Case Modeling",
+        "explanation": "Use Case Modeling is a technique used to define the behavior of a system from a technical perspective. It involves creating a visual representation of the system's functions and their interactions with users and other systems.\n----------------------------"
+    }
+]

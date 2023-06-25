@@ -1,0 +1,245 @@
+{% extends 'WebInterface/base.html' %}
+
+{% load static %}
+{% block content%}
+
+<!-- Carousel Start -->
+<div class="container-fluid p-0 mb-5">
+    <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item ">
+            <img class="img-fluid" src="{% static 'img/business2.jpg' %}" alt="">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-10 col-lg-8">
+                            <h5 class="text-primary text-uppercase mb-3 animated slideInDown">300+ CBAP Questions</h5>
+                            <h1 class="display-3 text-white animated slideInDown">The Best CBAP Preparation Platform</h1>
+                            <p class="fs-5 text-white mb-4 pb-2">Looking to become a certified business analysis professional? passCBAP offers the best resources and tools to help you in your CBAP preparation.</p>
+                            <a href="{% url 'home' %}#About" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            <a href="{% url 'sign-in' %}" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+            <img class="img-fluid" src="{% static 'img/graduate-gb9e9ea7f8_1920.jpg' %}" alt="">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-10 col-lg-8">
+                            <h5 class="text-primary text-uppercase mb-3 animated slideInDown">User Friendly</h5>
+                            <h1 class="display-3 text-white animated slideInDown">Get Exam Ready At Your Comfort</h1>
+                            <p class="fs-5 text-white mb-4 pb-2">Welcome to passCBAP! Get prepared for your CBAP exam in the comfort of your own home with our easy to use exam-prep platform.</p>
+                            <a href="{% url 'home' %}#About" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            <a href="{% url 'sign-in' %}" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-3">Learn Yourself</h5>
+                        <p>Learn at your own pace as you can set your learning conditions to suit your needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                        <h5 class="mb-3">Practice from Anywhere</h5>
+                        <p>Participate from anywhere in the world !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                        <h5 class="mb-3">Learn At your Comfort</h5>
+                        <p>Prepares you and enables you learn from your mistakes all in the comfort of your environment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                        <h5 class="mb-3">300+ Question Bank</h5>
+                        <p>Gained access to frequently updated 300+ question bank</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div >
+<!-- Service End -->
+
+
+<!-- About Start -->
+<div id='About' class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="{% static 'img/about.jpg' %}" alt="" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                <h1 class="mb-4">Welcome to passCBAP</h1>
+                <p class="mb-4"> passCBAP is a  web application that aims to help professionals prepare for the prestigious CBAP (Certified Business Analysis Professional) certification exam. It offers a comprehensive and effective learning experience.</p>
+                <p class="mb-4">Our user-friendly interface and interactive quiz platform provide a customized learning journey that caters to candidates' needs, helping them identify their strengths and weaknesses.
+                    passCBAP offers a vast selection of CBAP practice questions that simulate the actual exam experience, and our detailed explanations and feedback provide valuable insights and enable candidates to learn from their mistakes.
+                </p>
+                <div class="row gy-2 gx-4 mb-4">
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Easy to Use</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Customizable</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Access to 300+ CBAP questions</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Detailed Results</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>View Result History</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Identify Candidates' strength and weakness</p>
+                    </div>
+                </div>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="{% url 'sign-in' %}">Get Started</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Categories Start -->
+<div class="container-xxl py-5 category">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+            <h1 class="mb-5">CBAP Categories</h1>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                        <a class="position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="{% static 'img/planning.jpg' %}" alt="">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0">Business Analysis Planning and Monitoring</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="{% static 'img/cat-2.jpg' %}" alt="">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0">Elicitation and Collaboration</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                        <a class="position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="{% static 'img/download.png' %}" alt="">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0">Requirements Life Cycle Management</h5>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.6s">
+                        <a class="position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="{% static 'img/evaluation.jpeg' %}" alt="">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0"> Solution Evaluation</h5>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.7s">
+                        <a class="position-relative d-block overflow-hidden" href="">
+                            <img class="img-fluid" src="{% static 'img/cat-3.jpg' %}" alt="">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0"> Requirements Analysis and Design Definition</h5>
+                                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.8s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden" href="">
+                    <img class="img-fluid position-absolute w-100 h-100" src="{% static 'img/cat-4.jpg'  %}" alt="" style="object-fit: cover;">
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                        <h5 class="m-0">Strategy Analysis</h5>
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Categories Start -->
+
+<!-- Testimonial Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+            <h1 class="mb-5">Our Participants Say!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{% static 'img/testimonial-1.jpg' %}" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Amanda</h5>
+                <p>Accountant</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">With the help of passCBAP, I was able to overcome the fear of sitting for the CBAP examination!</p>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{% static 'img/testimonial-2.jpg' %}" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Tony</h5>
+                <p>Banker</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">I passed my CBAP exams in one sitting. Thank you passCBAP </p>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="border rounded-circle p-2 mx-auto mb-3" src="{% static 'img/testimonial-3.jpg' %}" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Steve</h5>
+                <p>Entreprenuer</p>
+                <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">passCBAP is simple and efficient.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+ 
+{% endblock %}
