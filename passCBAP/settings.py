@@ -136,3 +136,6 @@ EMAIL_HOST_PASSWORD = '574c2aa30211d8'
 EMAIL_PORT = '2525'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-be78.up.railway.app'
+]
