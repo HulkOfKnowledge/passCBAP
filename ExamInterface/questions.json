@@ -1510,5 +1510,1429 @@
         },
         "correct_answer": "Use Case Modeling",
         "explanation": "Use Case Modeling is a technique used to define the behavior of a system from a technical perspective. It involves creating a visual representation of the system's functions and their interactions with users and other systems.\n----------------------------"
+    },
+    {
+        "id": 127,
+        "question": "Validation and verification processes are closely related. Which of the following statements are not right about the two? (Select the statement that is WRONG).",
+        "options": {
+            "a": "Validation process can finish before verification process finishes",
+            "b": "Verification process can start before Validation process starts",
+            "c": "Verification process can finish before Validation process finishes",
+            "d": "Validation process cannot finifh before Verification process finishes"
+        },
+        "correct_answer": "Validation process can finish before verification process finishes",
+        "explanation": "Validation activities may begin before requirements are completely verified. However, validation activities cannot be completed before requirements are completely verified. BABOK 7.3 Validate Requirements"
+    },
+    {
+        "id": 128,
+        "question": "Bharat the BA Manager defined a KPI for his team: Absolute time it takes to produce a requirement specification as measured from the original request for the specification to the time it is sent for sign-off. The bonuses for the team will be given based on meeting this KPI. You think this KPI might not be the best. Why?",
+        "options": {
+            "a": "it is not measurable and allows for intepretations",
+            "b": "It may promote behavior that is detrimental to the enterprise",
+            "c": "it is irrelevent ot the business analysis process",
+            "d": "actually,it is ok and you dont have any issues with it"
+        },
+        "correct_answer": "It may promote behavior that is detrimental to the enterprise",
+        "explanation": "All performance metrics will encourage certain behaviours and discourage others. Poorly chosen metrics may drive behaviour that is detrimental to the enterprise as a whole. Refer to BABOK 3.5 Identify Business Analysis Performance Improvements. In our case, focusing purely on the speed of production will likely result in people rushing the send the specifications faster to meet the KPI which is very likely to affect quality of work."
+    },
+    {
+        "id": 129,
+        "question": "You are working on a product improvement project with a very tight budget. You've been tasked by the project sponsor to use the available money in the most efficient way possible. Now, you need to prioritize the work for the team. Which approach to prioritization will you use?",
+        "options": {
+            "a": "Ranking",
+            "b": "Grouping",
+            "c": "Budgeting",
+            "d": "Negotiation"
+        },
+        "correct_answer": "Budgeting",
+        "explanation": "Time boxing or budgeting prioritizes business analysis information based on the allocation of a fixed resource. Budgeting is used when the project team has been allocated a fixed amount of money. BABOK 10.33 Prioritization"
+    },
+    {
+        "id": 130,
+        "question": "You are analysing an under-performing solution and realise that one of the modules seems to implement a simplified business logic compared to the expected one. What have you uncovered?",
+        "options": {
+            "a": "A potential solution limitation",
+            "b": "An enterprise limitation",
+            "c": "A risk",
+            "d": "A reason to fire someone"
+        },
+        "correct_answer": "",
+        "explanation": "Solution Limitation: a description of the current limitations of the solution including constraints and defects. 8.3 Assess Solution Limitations"
+    },
+    {
+        "id": 131,
+        "question": "When testing a solution, Tom the Test manager notices that the solution is very slow in responding to user input. Even though it functionally performs well, the response times become an issue. After analysing the project documentation, Tom can't find any reference to desired response speed. Which types of requirements were likely missed when scoping the solution?",
+        "options": {
+            "a": "Business",
+            "b": "Technical",
+            "c": "Non-functional",
+            "d": "Qualitative"
+        },
+        "correct_answer": "Non-functional",
+        "explanation": "These are \"non-functional requirements or quality of service requirements\". Performance efficiency is one of the categories of non-functional requirements. BABOK 10.30 Non-Functional Requirements Analysis"
+    },
+    {
+        "id": 132,
+        "question": "You are dealing with a new project. The potential solution is largely typical and is defined before the start of implementation to lock costs and resources. The client expects a high level of formality in reporting and quality gates. Which approach would you recommend?",
+        "options": {
+            "a": "Predictive",
+            "b": "Adaptive",
+            "c": "Hybrid",
+            "d": "Iterative"
+        },
+        "correct_answer": "Predictive",
+        "explanation": "Aspects of the predictive approach: 1. Solution is largely defined before the start of implementation 2. Level of formality is comparatively high 3. Activities are planned upfront and divided into tasks 4. Tasks are grouped into defined phases BABOK 3.1 Plan Business Analysis Approach"
+    },
+    {
+        "id": 133,
+        "question": "Your company is about to launch a new automation solution. The solution is meant to make the service fulfillment faster, so you want to prove that the solution works with solid evidence. As a part of solution design, a reporting module was built. This module measures time to finalise a service, aggregates the data and prepares reports. Sue the Strategic adviser suggests that you should delay the launch of the new solution by one or two weeks to collect the current processing time before introducing the change, as these data seems not to be collected at the moment. Do you agree with her proposal?",
+        "options": {
+            "a": "No,we can't delay the aunch even if some data is missing.it can always be collected later",
+            "b": "No,the data she asks for is not needed.We are not intrested in the current performance,we need the stats on the new solution",
+            "c": "No, it is to expensive and risky to do i this way",
+            "d": "Shes is actually right, this needs to be done"
+        },
+        "correct_answer": "Shes is actually right, this needs to be done",
+        "explanation": "Establishing a monitoring and evaluation system requires a data collection procedure, a data analysis procedure, a reporting procedure, and the collection of baseline data. in our case, it seems the baseline data is missing, so we need to spend time collecting it otherwise we won't be able to tell if the new solution improved the performance or not. BABOK 10.28 Metrics and Key Performance Indicators (KPIs)"
+    },
+    {
+        "id": 134,
+        "question": "Once a new business need is identified, what needs to be performed?",
+        "options": {
+            "a": "Business analysis planning",
+            "b": "Requirement management",
+            "c": "Process modellig",
+            "d": "Strategy analysis"
+        },
+        "correct_answer": "Strategy analysis",
+        "explanation": "Strategy analysis should be performed as a business need is identified. This allows stakeholders to make the determination of whether to address that need or not. BABOK 6. Strategy analysis"
+    },
+    {
+        "id": 135,
+        "question": "After analysing solution performance, Pruthvi the Process Analyst concludes that the system automates a highly business critical finance reconciliation process with 0 error rate but at slow rate comparable to what a single human finance controller could do. How would you classify this solution?",
+        "options": {
+            "a": "high performing,low value",
+            "b": "high performing,high value",
+            "c": "low performing,high vaue",
+            "d": "low performing,low value"
+        },
+        "correct_answer": "low performing,high vaue",
+        "explanation": "It is a core process that is inefficient,, which by the description from BABOK Guide can be classified as low performing but valuable solution. BABOK 8.2 Analyze Performance Measures"
+    },
+    {
+        "id": 136,
+        "question": "You plan to run a prioritization workshop and use ICE prioritization framework for it. One of the senior stakeholders learned about it, even though not participating in the workshop, and stated they do not understand how the technique works. What is likely to happen if you don't explain the technique to that person?",
+        "options": {
+            "a": "They will engage in a conflict with you",
+            "b": "They will sabotage the project",
+            "c": "they will question the validity and relevance of the results of the workshop",
+            "d": "Nothing bad will happen,that person does not participate in the workshop"
+        },
+        "correct_answer": "they will question the validity and relevance of the results of the workshop",
+        "explanation": "Business analysts may need to educate stakeholders on how an elicitation technique works or what information is needed. It may be helpful to explain an elicitation technique to stakeholders not involved in the activity to help them understand the validity and relevance of the information elicited. BABOK 4.1 Prepare for Elicitation"
+    },
+    {
+        "id": 137,
+        "question": "You've just finished defining the problem area for a new initiative and formulating the potential opportunities as well as known constraints. What is your next logical step?",
+        "options": {
+            "a": "Define future state",
+            "b": "Assess risk",
+            "c": "Define change strategy",
+            "d": "Escalate to steering committee"
+        },
+        "correct_answer": "Define future state",
+        "explanation": "What you've done is to define Business requirements. Business requirements are an input to Define Future State. BABOK 6.2 Define Future State"
+    },
+    {
+        "id": 138,
+        "question": "You are pulled into an argument between the two solution architects - Steve and Sally. For data flow modeling, Steve says Yourdon notation has better expression power than Gane and Sarson notation. Sally says it\u00e2\u20ac\u2122s the other way round. What do you say?",
+        "options": {
+            "a": "Steve is right:Yourdon notation is more powerful than Gane and Sarson notation",
+            "b": "Sally is right:Gane and Sarason notation is more powerful than Yourdon notation",
+            "c": "Neither is right:both notations depict the same object,the only difference is in visual aesthetics",
+            "d": "Neither is right:both notations are used for business process modelling,not data flows"
+        },
+        "correct_answer": "Neither is right:both notations depict the same object,the only difference is in visual aesthetics",
+        "explanation": "There is no substantial difference beyond using different symbols for same types of entities. See BABOK 10.13 Data Flow Diagrams"
+    },
+    {
+        "id": 139,
+        "question": "Steve the Stakeholder raises a change request quite late in the project. What do you do?",
+        "options": {
+            "a": "Reject th request and record it in the decisisn register.",
+            "b": "Take steps to understand the change,assess the impact and if it is acceptable according to your change manangement process make changes to the basline",
+            "c": "Take steps to understand the change,update the requirement accordingly and replan the roadmap",
+            "d": "Update the requirement records,assess the impact and have a follow up converstion with steve on the impact"
+        },
+        "correct_answer": "Take steps to understand the change,assess the impact and if it is acceptable according to your change manangement process make changes to the basline",
+        "explanation": "When a change is raised, you understand the change, assess it and make corresponding updates based on the results of assessment (impact resolution). BABOK 5.4 Assess Requirements Changes"
+    },
+    {
+        "id": 140,
+        "question": "One of the key project stakeholders, Tim the Test manager asks Bob the Business Analyst to review a set of requirements before finalising them, as a part of verification. Bob refuses saying that it is his (Bob's) job to get a full verified baseline of requirements, and that he expects Tim to be involved much later in the project. Does it seem like the right approach?",
+        "options": {
+            "a": "Yes, testing happens later during solution evaluaion so the test manager does not need to see rquirements yet.",
+            "b": "Yes,it is BA's job alone to get a verified list of reuirements.",
+            "c": "No.It is Tims's job to verify the requirements.He is the test manage",
+            "d": "No,Ba should perform a requirements vrification together with key stakeholders"
+        },
+        "correct_answer": "No,Ba should perform a requirements vrification together with key stakeholders",
+        "explanation": "Requirements verification constitutes a check by the business analyst and key stakeholders to determine that the requirements and designs are ready for validation, and provides the information needed for further work to be performed. BABOK 7.2 Verify Requirements"
+    },
+    {
+        "id": 141,
+        "question": "You've just started in a new organisation as a BA lead. Prior to the kick off of a new project, you recommend to your manager that you need to spend a few days to land on an approach business analysts should take to tackle the task. The manager says it is not needed as the organisation has a standard BA process for all BAs to follow. You did not know about it. What should you do?",
+        "options": {
+            "a": "Follow the standard approach and not waste time trying to reinvent it.",
+            "b": "Ignore the standard approach.As a new lead you are entitled to redefine approaches based on need.Insist on having the planning time.",
+            "c": "insist on still having some time for planning,but maybe less tan originally asked for.Havibg standard precess is good,but you may nedd to adjust it to the specifics of the project",
+            "d": "Do not insist on having the planninf time,but raise it as a project risk"
+        },
+        "correct_answer": "insist on still having some time for planning,but maybe less tan originally asked for.Havibg standard precess is good,but you may nedd to adjust it to the specifics of the project",
+        "explanation": "In some organizations, elements of the business analysis approach may be standardized and formalized into a repeatable business analysis process which can be leveraged for each effort. Even where a standard approach exists, it may be tailored to the needs of a specific initiative. BABOK 3.1 Plan Business Analysis Approach"
+    },
+    {
+        "id": 142,
+        "question": "You are running a requirements review and approval meeting. You have identified the roles for the participants, you've facilitated the meeting and ensured consensus between participants on which requirements are approved. What is your next step?",
+        "options": {
+            "a": "Record the decisions,update the status the requirements and communicate the status of the requirements to the stakeholders",
+            "b": "Write up meeting notes and store then on knowledge babe",
+            "c": "Thank the participants and book another approval meeting to re-validate approvals",
+            "d": "Your job here is done-requiremens are approved.No more steps"
+        },
+        "correct_answer": "Record the decisions,update the status the requirements and communicate the status of the requirements to the stakeholders",
+        "explanation": "After consensus is reached, the business analyst records approval decisions and communicates the status of requirements and designs. BABOK 5.5 Approve Requirements In our case the tool is Jira so it is best to keep the record of the status of requirement in the same tool."
+    },
+    {
+        "id": 143,
+        "question": "Someone is showing you a prototype of a new payment platform. It looks very well designed and functioning well. Then you hear someone mentions it is just a throw-away prototype. What does it mean?",
+        "options": {
+            "a": "This prototype will be evolved in the final product",
+            "b": "This prototype was never intended to become a functional product and only serves a purpose to test a hypothesis.",
+            "c": "This prototype was initially designed to be a part of the solution, but then was descoped",
+            "d": "This prototype is actually a workable solution that needs refinement"
+        },
+        "correct_answer": "This prototype was never intended to become a functional product and only serves a purpose to test a hypothesis.",
+        "explanation": "Throw-away prototypes serve a single purpose (e.g. test a hypothesis) and never become or are intended to become a functional product. BABOK 10.36 Prototyping"
+    },
+    {
+        "id": 144,
+        "question": "Cecile a Colleague of yours shows you a diagram and asks to help figure it out.",
+        "options": {
+            "a": "Solution scope",
+            "b": "Solution architecture",
+            "c": "Business process",
+            "d": "Integrations"
+        },
+        "correct_answer": "Business process",
+        "explanation": "this is a use case diagram. Use case diagrams help clarify scope. BABOK 10.47 Use Cases and Scenarios"
+    },
+    {
+        "id": 145,
+        "question": "You walk into a room where a business analyst is running a workshop. They have a canvas on the wall with sections like \"Key partnerships\", \"Key Activities\", \"Key resources\", \"Value proposition\", \"Channels\" and a few others. You immediately regonise the technique. It is...",
+        "options": {
+            "a": "Business case",
+            "b": "Business capability analysis",
+            "c": "Balanced Scorecard",
+            "d": "Business model canvas"
+        },
+        "correct_answer": "Business model canvas",
+        "explanation": "A business model canvas is comprised of nine building blocks that describe how an organization intends to deliver value: \u00e2\u20ac\u00a2 Key Partnerships, \u00e2\u20ac\u00a2 Key Activities, \u00e2\u20ac\u00a2 Key Resources, \u00e2\u20ac\u00a2 Value Proposition, \u00e2\u20ac\u00a2 Customer Relationships, \u00e2\u20ac\u00a2 Channels, \u00e2\u20ac\u00a2 Customer Segments, \u00e2\u20ac\u00a2 Cost Structure, and \u00e2\u20ac\u00a2 Revenue Streams 10.8 Business Model Canvas"
+    },
+    {
+        "id": 146,
+        "question": "A high-level plan of key activities and events that will be used to transform the enterprise from the current state to the future state is called:",
+        "options": {
+            "a": "Roadmap",
+            "b": "Vision",
+            "c": "Project plan",
+            "d": "Change strategy"
+        },
+        "correct_answer": "Roadmap",
+        "explanation": "A change strategy is a high-level plan of key activities and events that will be used to transform the enterprise from the current state to the future state. BABOK 6.4 Define Change Strategy"
+    },
+    {
+        "id": 147,
+        "question": "You need a way to define the boundaries of the solution, so the stakeholders can clearly see which features they will get and which will not be delivered. Which model can help?",
+        "options": {
+            "a": "Process model",
+            "b": "Scope model",
+            "c": "Decision model",
+            "d": "data Model"
+        },
+        "correct_answer": "Scope model",
+        "explanation": "Scope models are commonly used to describe the boundaries of control, change, a solution, or a need. BABOK 10.41 Scope Modelling"
+    },
+    {
+        "id": 148,
+        "question": "What type of an interview does not follow a script and lets the conversation evolve organically?",
+        "options": {
+            "a": "A focus group",
+            "b": "An unstructured interview",
+            "c": "A structured interview",
+            "d": "A badly planned interview"
+        },
+        "correct_answer": "An unstructured interview",
+        "explanation": "Unstructured Interview: in which the interviewer does not have a predetermined format or order of questions. Questions may vary based on interviewee responses and interactions. BABOK 10.25 Interviews"
+    },
+    {
+        "id": 149,
+        "question": "You know that the project has a risks register. You see two project members trying to refer to an item in the register. One of them is explaining what the risk was about and another one is trying to find it in the list. It seems they both have found the risk record and started discussing it. However, it becomes apparent to you that they are talking about different risks. Which attribute of risk item tracking is likely missing in the register?",
+        "options": {
+            "a": "Risk summary",
+            "b": "Risk description",
+            "c": "Risk identifier",
+            "d": "Risk category"
+        },
+        "correct_answer": "Risk identifier",
+        "explanation": "\"Item Identifier: a unique identifier that distinguishes one item from another.\" If they had it, they could just compare the identifiers of the items they were discussing it would become obvious if they are talking about the same item or not. BABOK 10.26 Item Tracking"
+    },
+    {
+        "id": 150,
+        "question": "You review a set of requirements and realise one of them is no longer needed as the business process has recently changed, so stakeholders are not going to use the feature requested. What should you do?",
+        "options": {
+            "a": "Keep it as is for historical purposes",
+            "b": "Recommend to eliminate it",
+            "c": "Recommend to monitor it closely",
+            "d": "Recommend to implement it with less quality"
+        },
+        "correct_answer": "",
+        "explanation": "A requirement that does not deliver benefit to a stakeholder is a strong candidate for elimination. BABOK 7.3 Validate Requirements"
+    },
+    {
+        "id": 151,
+        "question": "Which knowledge area includes tasks like planning business analysis approach, stakeholder engagement, and ensuring governance?",
+        "options": {
+            "a": "Business Analysis Planning and Monitoring",
+            "b": "Solution evaluation",
+            "c": "Elicitation and collaboration",
+            "d": "Requirements lifecycle management"
+        },
+        "correct_answer": "Business Analysis Planning and Monitoring",
+        "explanation": "Refer to BABOK 3 Business Analysis Planning and Monitoring"
+    },
+    {
+        "id": 152,
+        "question": "When does a requirement lifecycle begin?",
+        "options": {
+            "a": "When a business need is expressed as a requirement",
+            "b": "When a business analyst is assigned to a project",
+            "c": "When a formal project is kicked off",
+            "d": "When a backlog item is created in Jira"
+        },
+        "correct_answer": "When a business need is expressed as a requirement",
+        "explanation": "The requirements life cycle begins with the representation of a business need as a requirement. BABOK 5 Requirements Life Cycle Management"
+    },
+    {
+        "id": 153,
+        "question": "After conducting a focus group, Fiona the Facilitator is puzzled. It turns out the focus group did not result in any useful insights, as most of the participants were not familiar with the subject of the conversation. Which stage of preparing for the focus group did Fiona likely miss?",
+        "options": {
+            "a": "Defining an objective for a focus group",
+            "b": "Planning logistics",
+            "c": "Pre-qualifying participants",
+            "d": "Preparing a discussion guide"
+        },
+        "correct_answer": "Pre-qualifying participants",
+        "explanation": "\" A focus group is composed of pre-qualified participants whose objective is to discuss and comment on a topic within a context.\" BABOK 10.21 Focus Groups. In our case, the participants were clearly not selected properly."
+    },
+    {
+        "id": 154,
+        "question": "Midway through the project, you realise the three BAs in your team all created different types of artifacts using different templates, and now it is very hard for them to align the results. Which task did you fail as their manager?",
+        "options": {
+            "a": "Establishing governance",
+            "b": "Planning stakeholder engagement",
+            "c": "Planning BA approach",
+            "d": "Planning business analysis information management"
+        },
+        "correct_answer": "Planning business analysis information management",
+        "explanation": "Plan Business Analysis Information Management: defines how information developed by business analysts (including requirements and designs) is captured, stored, and integrated with other information for long-term use. Refer to BABOK 3 Business Analysis Planning and Monitoring"
+    },
+    {
+        "id": 155,
+        "question": "Which items can your backlog hold?",
+        "options": {
+            "a": "Designs",
+            "b": "User stories",
+            "c": "Change requests",
+            "d": "All of the above"
+        },
+        "correct_answer": "Change requests",
+        "explanation": "Backlog can hold all of these items. BABOK 10.2 Backlog Management"
+    },
+    {
+        "id": 156,
+        "question": "As a part of your organizational change management approach, one of the BAs in your team is tasked to perform an enterprise culture assessment. They questions why they need to do it. What do you say?",
+        "options": {
+            "a": "You perform cultural assessment to identify whether or not stakeholders understand the reasons why a solution exists and view it as something beneficial. You can use this knowledge to determine if cultural changes are needed.",
+            "b": "You perform cultural assessment to identify whether or not stakeholders agree with the organisational change strategy so you can identify potential hard stakeholders to deal with.",
+            "c": "You perform cultural assessment as a part of any project delivery methodology - it is just a must to deliver a project.",
+            "d": "You perform cultural assessment to find ways to celebrate success."
+        },
+        "correct_answer": "You perform cultural assessment to identify whether or not stakeholders understand the reasons why a solution exists and view it as something beneficial. You can use this knowledge to determine if cultural changes are needed.",
+        "explanation": "Business analysts perform cultural assessments to: \u00e2\u20ac\u00a2 identify whether or not stakeholders understand the reasons why a solution exists \u00e2\u20ac\u00a2 ascertain whether or not the stakeholders view the solution as something beneficial and are supportive of the change \u00e2\u20ac\u00a2 determine if and what cultural changes are required to better realize value from a solution. BABOK 8.4 Assess Enterprise Limitations"
+    },
+    {
+        "id": 157,
+        "question": "Which types of stakeholders can be a source of requirements?",
+        "options": {
+            "a complex system": "The system constantly listens to external events and changes its behaviour based on the type of event registered. You think you know which model will help with capturing this behaviour. Which one?",
+            "a": "Only stakeholders officially identified and listed in the project charter",
+            "b": "Only end users of the solution",
+            "c": "Only stakeholders who are invested in the solution",
+            "d": "Any stakeholder can be a source of requirements"
+        },
+        "correct_answer": "Any stakeholder can be a source of requirements",
+        "explanation": "Any stakeholder can be a source of requirements, assumptions, or constraints. BABOK 2.4 Stakeholders"
+    },
+    {
+        "id": 158,
+        "question": "Leslie the Lead solution architect struggles to model the behaviour of a complex system. The system constantly listens to external events and changes its behaviour based on the type of event registered. You think you know which model will help with capturing this behaviour. Which one?",
+        "options": {
+            "a": "Use case diagram",
+            "b": "State model",
+            "c": "Business rules model",
+            "d": "Business process model"
+        },
+        "correct_answer": "State model",
+        "explanation": "\"State modelling is used to describe and analyze the different possible states of an entity within a system, how that entity changes from one state to another, and what can happen to the entity when it is in each state.\" BABOK 10.44 State Modelling. In our case, the system changes state based on the type of event registered, so we need to list possible states (=possible behaviour patterns) and map transitions to types of events."
+    },
+    {
+        "id": 159,
+        "question": "You work in an IT department of a large retail store. One day, Barbara the Boss tells you that the design for the new order processing system is almost ready and needs review. She asks you to review the documents. What type of documentation will you likely expect to see?",
+        "options": {
+            "a": "A set of deliverables from business users, explaining their expectation of the system",
+            "b": "A set of visual and UX designs for the user interface from the visual design team",
+            "c": "A set of technical architecture documents explaining the potential implementation of the system",
+            "d": "A set of test cases for the solution"
+        },
+        "correct_answer": "A set of technical architecture documents explaining the potential implementation of the system",
+        "explanation": "In many IT environments, the word 'design' is used specifically for technical designs created by software developers, data architects, and other implementation subject matter experts. All business deliverables are referred to as 'requirements'. BABOK 7.1 Specify and Model Requirements"
+    },
+    {
+        "id": 160,
+        "question": "After collecting solution performance measures, you realise there is not enough data to determine if the solution is valuable or not. What is your next logical step?",
+        "options": {
+            "a": "Report to the management that the solution is not valuable",
+            "b": "Recommend a new solution increment that will be more valuable",
+            "c": "Collect more measurements, or if it is not possible treat it as a risk",
+            "d": "Do nothing, negative result is still a result"
+        },
+        "correct_answer": "Collect more measurements, or if it is not possible treat it as a risk",
+        "explanation": "If the measures are not sufficient to help stakeholders determine solution value, business analysts either collect more measurements or treat the lack of measures as a solution risk. BABOK 8.2 Analyze Performance Measures"
+    },
+    {
+        "id": 161,
+        "question": "Which model shows how data and knowledge are combined to make a specific decision?",
+        "options": {
+            "a": "Decision model",
+            "b": "Data model",
+            "c": "Data flow",
+            "d": "Process model"
+        },
+        "correct_answer": "Decision model",
+        "explanation": "Decision models show how data and knowledge are combined to make a specific decision. 10.17 Decision Modelling"
+    },
+    {
+        "id": 162,
+        "question": "As a business analyst, you need to help your organisation to choose between the two options of the user interface design based on which one is easier to use and will result in less human errors. What will you do?",
+        "options": {
+            "a": "Collect stakeholders for a workshop and discuss the options",
+            "b": "Run a controlled experiment when a group of users will try to use the prototypes of the options and you will record how many errors occur for each.",
+            "c": "Escalate the decision to the project sponsor",
+            "d": "Try to imagine using both interfaces yourself and select the one that feels better"
+        },
+        "correct_answer": "Run a controlled experiment when a group of users will try to use the prototypes of the options and you will record how many errors occur for each.",
+        "explanation": "From the BABOK Guide 4.2 Conduct Elicitation: \"Experiments: involves identifying information that could not be known without some sort of controlled test. Some information cannot be drawn from people or documents\u00e2\u20ac\u201dbecause it is unknown. Experiments can help discover this kind of information.\" We don't know which interface will result in less human errors. The only reliable way is to let people use it (or mock it in a prototype and let people try to interact with a prototype) and see which one performs better."
+    },
+    {
+        "id": 163,
+        "question": "What is the best definition of an assumption?",
+        "options": {
+            "a": "An influencing factor that is recorded in the assumptions register and is treated as an unknown risk",
+            "b": "An influencing factor that is believed to be true but has not been confirmed to be accurate, or that could be true now but may not be in the future.",
+            "c": "An influencing factor that is expressed as a stakeholder expectation without a proved declaration of underlying need",
+            "d": "An influencing factor that is known not to be true but is considered to be assumed true unless it becomes a problem"
+        },
+        "correct_answer": "An influencing factor that is believed to be true but has not been confirmed to be accurate, or that could be true now but may not be in the future.",
+        "explanation": "assumption: An influencing factor that is believed to be true but has not been confirmed to be accurate, or that could be true now but may not be in the future. BABOK Appendix A: Glossary"
+    },
+    {
+        "id": 164,
+        "question": "Which typical business analysis task helps develop an approach for how business analysis information will be stored and accessed?",
+        "options": {
+            "a": "Plan stakeholder engagement",
+            "b": "Plan business analysis information management",
+            "c": "Plan business analysis governance",
+            "d": "Plan business analysis approach"
+        },
+        "correct_answer": "Plan business analysis information management",
+        "explanation": "It the the purpose of Plan Business Analysis Information Management. Refer to BABOK 3.4"
+    },
+    {
+        "id": 165,
+        "question": "When maintaining requirements, which aspects do you focus on?",
+        "options": {
+            "a": "Requirements",
+            "b": "Attributes",
+            "c": "Relationships",
+            "d": "All of the above"
+        },
+        "correct_answer": "All of the above",
+        "explanation": "Requirements are maintained so that they remain correct and current after an approved change. <...> Business analysts also maintain the relationships among requirements. <...> Some attributes change as the business analyst uncovers more information and conducts further analysis. An attribute may change even though the requirement does not. BABOK 5.2 Maintain Requirements"
+    },
+    {
+        "id": 166,
+        "question": "You are tasked with scoping a project to build a new landing page and website designed for a broad audience. Which technique will you suggest using to analyse your end user stakeholder groups?",
+        "options": {
+            "a": "Stakeholder list",
+            "b": "Onion diagram",
+            "c": "Stakeholder matrix",
+            "d": "Persona"
+        },
+        "correct_answer": "Persona",
+        "explanation": "A persona is defined as a fictional character or archetype that exemplifies the way a typical user interacts with a product. Personas are helpful when there is a desire to understand the needs held by a group or class of users. BABOK 10.43 Stakeholder List, Map, or Personas"
+    },
+    {
+        "id": 167,
+        "question": "How can you best describe a \"preventive action\" as a way to improve quality of business analysis?",
+        "options": {
+            "a": "An action that reduces the probability of an event with negative impact",
+            "b": "A way to reduce the negative impact of a happened event",
+            "c": "A way to increase the probability of a positive risk",
+            "d": "All of the above"
+        },
+        "correct_answer": "An action that reduces the probability of an event with negative impact",
+        "explanation": "Preventive: reduces the probability of an event with a negative impact. BABOK 3.5 Identify Business Analysis Performance Improvements."
+    },
+    {
+        "id": 168,
+        "question": "When calculating expected costs of the solution, what should you not include?",
+        "options": {
+            "b": "Cost of physical resources",
+            "c": "Alternative cost",
+            "d": "Implementation cost"
+        },
+        "correct_answer": "",
+        "explanation": "Although alternative cost may be considered when making a recommendation for a solution, it is not a part of expected cost of the solution itself, unlike the rest of the items in the list. BABOK 7.6 Analyze Potential Value and Recommend Solution"
+    },
+    {
+        "id": 169,
+        "question": "Justin the Junior Business Analyst prepared a list of requirements and presented them to the sponsor and a few senior stakeholders. The stakeholders were not happy with the presentation and complained that the requirements presented were way too technical for them to understand. Which element of specifying requirements did Justin miss?",
+        "options": {
+            "a": "He did not model requirements",
+            "b": "He did not analyse requirements",
+            "c": "He did not represent requirements attributes",
+            "d": "He did not implement an appropriate level of abstraction"
+        },
+        "correct_answer": "He did not implement an appropriate level of abstraction",
+        "explanation": "The level of abstraction of a requirement varies based on the type of requirement and audience for the requirement. Not all stakeholders require or find value in the complete set of requirements and models. It may be appropriate to produce different viewpoints of requirements to represent the same need for different stakeholders. BABOK 7.1 Specify and Model Requirements"
+    },
+    {
+        "id": 170,
+        "question": "Jessie the Junior Business Analyst is preparing for a brainstorming session and suggests to use a mind map during the session to structure the ideas. Will you support this approach?",
+        "options": {
+            "a": "Yes, it is a sound approach",
+            "b": "Yes, although I would suggest to draw multiple mind maps - one for each key topic",
+            "c": "No, but only because she might need a second facilitator to help with mind mapping",
+            "d": "No, mind map is not a brainstorming tool"
+        },
+        "correct_answer": "No, mind map is not a brainstorming tool",
+        "explanation": "\"Limitations of a mind map: Can be misused as a brainstorming tool, and the related documenting of ideas and creating associations may inhibit idea generation.\" - so not a great idea to use it as such. BABOK 10.29 Mind Mapping"
+    },
+    {
+        "id": 171,
+        "question": "What is used to define the requirements, outcomes, or conditions that must be met in order for a solution to be considered acceptable to key stakeholders?",
+        "options": {
+            "a": "Acceptance criteria",
+            "b": "User acceptance testing",
+            "c": "Evaluation criteria",
+            "d": "Peer reviews"
+        },
+        "correct_answer": "Acceptance criteria",
+        "explanation": "This is the definition of acceptance criteria. BABOK 10.1 Acceptance and Evaluation Criteria"
+    },
+    {
+        "id": 172,
+        "question": "Your manager asks you to ensure that a set of requirements delivers business value and supports the organization's goals and objectives. In other words, what are they asking you to do?",
+        "options": {
+            "a": "Verify requirements",
+            "b": "Validate requirements",
+            "c": "Analyze Potential Value",
+            "d": "Recommend solutions"
+        },
+        "correct_answer": "Validate requirements",
+        "explanation": "Validate Requirements: ensures that a set of requirements or designs delivers business value and supports the organization's goals and objectives. BABOK 7. Requirements Analysis and Design Definition"
+    },
+    {
+        "id": 173,
+        "question": "What is the relationship between a metric and an indicator?",
+        "options": {
+            "a": "Metrics are quantifiable levels of indicators that are measured at a specified point in time.",
+            "b": "Indicators are pre-defined levels of metrics that are measured at a specified point in time.",
+            "c": "Metrics are higher level indicators that cover the whole business processes",
+            "d": "There is no relationship, these are separate entities"
+        },
+        "correct_answer": "Metrics are quantifiable levels of indicators that are measured at a specified point in time.",
+        "explanation": "A metric is a quantifiable level of an indicator that an organization uses to measure progress. Metrics are measured at a specific points in time. BABOK 10.28 Metrics and Key Performance Indicators (KPIs)"
+    },
+    {
+        "id": 174,
+        "question": "Poor relationships with stakeholders can have many detrimental effects on business analysis, including:",
+        "options": {
+            "a": "failure to provide quality information",
+            "b": "resistance to change",
+            "c": "business analysis information being ignored",
+            "d": "all of the above"
+        },
+        "correct_answer": "all of the above",
+        "explanation": "Poor relationships with stakeholders can have many detrimental effects on business analysis, including: \u00e2\u20ac\u00a2 failure to provide quality information, \u00e2\u20ac\u00a2 strong negative reactions to setbacks and obstacles, \u00e2\u20ac\u00a2 resistance to change, \u00e2\u20ac\u00a2 lack of support for, and participation in, business analysis work, and \u00e2\u20ac\u00a2 business analysis information being ignored. BABOK 4.5 Manage Stakeholder Collaboration"
+    },
+    {
+        "id": 175,
+        "question": "\"When assessing a proposed change, which of the following are legit impact resolution strategies you can use?",
+        "options": {
+            "a": "Approve change",
+            "b": "Deny change",
+            "c": "Defer change",
+            "d": "Improve change\""
+        },
+        "correct_answer": "",
+        "explanation": ""
+    },
+    {
+        "id": 176,
+        "question": "b,A, B",
+        "options": {
+            "c": "A, B, C",
+            "d": "A, B, C, D"
+        },
+        "correct_answer": "A, B, C",
+        "explanation": "Approve, Deny and Defer are possible impact resolution approaches. BABOK 5.4 Assess Requirements Changes"
+    },
+    {
+        "id": 177,
+        "question": "In RACI, what letter C stands for?",
+        "options": {
+            "a": "Someone who will be performing the task",
+            "b": "Someone who will be held accountable for the execution of a task",
+            "c": "Someone with who there is a one way communication (e.g. a status report)",
+            "d": "Someone with whom there is a two way communication (e.g. a request for opinion)"
+        },
+        "correct_answer": "Someone with whom there is a two way communication (e.g. a request for opinion)",
+        "explanation": "Consulted (C): the stakeholder or stakeholder group who will be asked to provide an opinion or information about the task. BABOK 10.43 Stakeholder List, Map, or Personas"
+    },
+    {
+        "id": 178,
+        "question": "\"In a workshop, you ask the participants to design a landing page for a new product to elicit their ideas for the main selling features of the product. One of the observers of the workshop comments that this seems silly. Which arguments will you use to defend your approach?",
+        "options": {
+            "A": "It helps identify hidden assumptions",
+            "B": "It helps explore knowledge in ways that may not occur during the course of normal interactions",
+            "C": "It helps uncover new perspectives",
+            "D": "It saves resources of a professional designer exploring creativity within existing team",
+            "a": "A, B, C",
+            "b": "A, B, C, D",
+            "c": "A, B, D",
+            "d": "A, C, D"
+        },
+        "correct_answer": "A, B, C",
+        "explanation": "This is an example of a collaborative game. The games are used to help the participants share their knowledge and experience on a given topic, identify hidden assumptions, and explore that knowledge in ways that may not occur during the course of normal interactions. Many collaborative games can be used to understand the perspectives of various stakeholder groups. BABOK 10.10 Collaborative Games"
+    },
+    {
+        "id": 179,
+        "question": "Together with Samantha the Senior Developer you are tasked to define API specifications for key integrations for your new platform. What would you do first?",
+        "options": {
+            "a": "Prepare a functional specification for an interface, such as an OpenApi specification",
+            "b": "Describe the functionality of each interface so it can be specified further by the developer",
+            "c": "Prepare a list of interaction or sequence diagrams (or maybe some other more conceptual context diagram) to help scope the APIs",
+            "d": "Understand the exchange methods between the systems"
+        },
+        "correct_answer": "Prepare a list of interaction or sequence diagrams (or maybe some other more conceptual context diagram) to help scope the APIs",
+        "explanation": "You start interface analysis by preparing for identification, which includes \"leveraging other techniques, such as document analysis, observation, scope modelling, and interviews, in order to understand which interfaces need to be identified. A context diagram can reveal high-level interfaces between human actors, organizational units, business processes, or other solution components.\" BABOK 10.24 Interface Analysis"
+    },
+    {
+        "id": 180,
+        "question": "After finishing a heated workshop, you realise no one took the notes about what was agreed. Which role was not properly assigned in preparation to the workshop?",
+        "options": {
+            "a": "Scribe",
+            "b": "Facilitator",
+            "c": "Subject matter expert",
+            "d": "Decision maker"
+        },
+        "correct_answer": "Scribe",
+        "explanation": "Scribe: documents the decisions in the format determined prior to the workshop and keeps track of any items or issues that are deferred during the session BABOK 10.50 Workshops"
+    },
+    {
+        "id": 181,
+        "question": "Danny the Data Architect is designing the data model. He is mapping different types of data to physical and logical disks where the data will be stored and is designing the hardware interfaces between them. Which level of abstraction is he using?",
+        "options": {
+            "a": "Conceptual",
+            "b": "Logical",
+            "c": "Physical",
+            "d": "Normal form"
+        },
+        "correct_answer": "Physical",
+        "explanation": "Hardware components and data storages is the physical level. 10.15 Data Modelling"
+    },
+    {
+        "id": 182,
+        "question": "When Sally the Senior BA starts on a new initiative, she tries to figure out what is going on. In order to do so she works with stakeholders to understand what kinds of changes are happening, what needs are being satisfied, what types of solutions are created, who are the stakeholders, and what is the business context. Which element is she missing in her initial analysis?",
+        "options": {
+            "a": "What do stakeholders consider of value",
+            "b": "What is the deadline",
+            "c": "Which techniques should be used",
+            "d": "What is the solution architecture"
+        },
+        "correct_answer": "What do stakeholders consider of value",
+        "explanation": "The missing element from the business analysis core concept model is \"Value\". BABOK 2.1 The Business Analysis Core Concept Model\u00e2\u201e\u00a2"
+    },
+    {
+        "id": 183,
+        "question": "What is not allowed during a passive observation (job shadowing)?",
+        "options": {
+            "a": "To observe people in real lfe scenarios",
+            "b": "To interrupt or ask questions",
+            "c": "To measure time or quality of the output",
+            "d": "To take notes or video recordings"
+        },
+        "correct_answer": "To interrupt or ask questions",
+        "explanation": "Passive observation allows observation of a natural flow of events without intervention by the observer, as well as measurement of the time and quality of work. During the activity the observer does not interrupt the work. BABOK 10.31 Observation"
+    },
+    {
+        "id": 184,
+        "question": "When monitoring Slack conversations (Slack is the software your company uses to manage communication) you notice a lot of times team members are using acronyms such as \"CRM\", \"ERP\", \"CMS\" for different types of systems. You think it might be hard for new starters to learn this lingo. What can you do about it?",
+        "options": {
+            "a": "Ask people to use less acronyms in business conversations",
+            "b": "Explain main acronyms in the team meetings",
+            "c": "Create a glossary of key acronyms",
+            "d": "Do nothing, it is a part of their job to learn the terminology"
+        },
+        "correct_answer": "Create a glossary of key acronyms",
+        "explanation": "A glossary defines key terms relevant to a business domain. You add items to glossary when there is a chance of misunderstanding. Refer to BABOK 10.23 Glossary"
+    },
+    {
+        "id": 185,
+        "question": "One of the consultants on the project suggests to include requirements for data encryption and password policies in the scope. How would you classify these requirements?",
+        "options": {
+            "a": "As stakeholder requirements",
+            "b": "As functional solution requirements",
+            "c": "As non-functional solution requirements",
+            "d": "As optional requirements, as they come from an external source"
+        },
+        "correct_answer": "As non-functional solution requirements",
+        "explanation": "These are security requirements: a part of non-functional solution requirements. BABOK 10.30 Non-Functional Requirements Analysis"
+    },
+    {
+        "id": 186,
+        "question": "Multiple solutions have been proposed to solve a customer's problem. You need to define which solution to choose. What will you use to help yourself make the decision?",
+        "options": {
+            "a": "I will define evaluation criteria",
+            "b": "I will ask for expert advice",
+            "c": "I will make decision based on my own expertise",
+            "d": "I will escalate the problem to the project sponsor"
+        },
+        "correct_answer": "I will define evaluation criteria",
+        "explanation": "Evaluation criteria are the measures used to assess a set of requirements in order to choose between multiple solutions. BABOK 10.1 Acceptance and Evaluation Criteria"
+    },
+    {
+        "id": 187,
+        "question": "Colin the Change manager performed stakeholder impact analysis for a new solution and produced a list of recommendations. After all the recommendations were implemented and the solution was released to life, it turned out the stakeholders can't perform the major business process because they tend to work from home when the solution implies they can collaborate together in one room. Which aspect of stakeholder impact analysis did Colin miss?",
+        "options": {
+            "a": "Analysis of stakeholder functions",
+            "b": "Analysis of stakeholder locations",
+            "c": "Analysis of stakeholder concerns",
+            "d": "Analysis of stakeholder preferences"
+        },
+        "correct_answer": "Analysis of stakeholder locations",
+        "explanation": "When conducting stakeholder impact analysis, business analysts consider \u00e2\u20ac\u00a2 Functions \u00e2\u20ac\u00a2 Locations \u00e2\u20ac\u00a2 Concerns Locations mean the geographic locations of the stakeholders interacting with the solution. If the stakeholders are in disparate locations, it may impact their use of the solution and the ability to realize the value of the solution. BABOK 8.4.4 Elements"
+    },
+    {
+        "id": 188,
+        "question": "You hear Umar the UX designer saying: \"we are going to create a working but limited version of a solution to demonstrate value and collect early feedback\". What is Umar talking about?",
+        "options": {
+            "a": "An operational release",
+            "b": "A pilot",
+            "c": "A prototype or POC",
+            "d": "A component"
+        },
+        "correct_answer": "A prototype or POC",
+        "explanation": "\"Prototypes or Proofs of Concept: working but limited versions of a solution that demonstrate value.\" BABOK 8 Solution Evaluation"
+    },
+    {
+        "id": 189,
+        "question": "Padmesh the Process analyst uncovered that the request fulfillment process tends to produce a failure every 5th execution. Which technique would you suggest that he uses to help understand why this happens?",
+        "options": {
+            "a": "Risk analysis",
+            "b": "Process simulation",
+            "c": "Root cause analysis",
+            "d": "defect management"
+        },
+        "correct_answer": "Root cause analysis",
+        "explanation": "Root cause analysis is used to identify and evaluate the underlying causes of a problem. BABOK 10.40 Root Cause Analysis"
+    },
+    {
+        "id": 190,
+        "question": "You've finished a series of interviews and are comparing notes. Suddenly, you notice different stakeholders consider different people responsible for the same activity and outcome. What should you do?",
+        "options": {
+            "a": "Add this to an issue register and let the project manager to follow up",
+            "b": "Escalate to the project sponsor",
+            "c": "Make a note about it and remember it for future",
+            "d": "Call for a follow up activity to get this addressed"
+        },
+        "correct_answer": "",
+        "explanation": "Business analysts compare results collected through multiple elicitation activities to confirm that the information is consistent and accurately represented. As comparisons are drawn, business analysts identify variations in results and resolve them in collaboration with stakeholders. BABOK 4.3 Confirm Elicitation Results"
+    },
+    {
+        "id": 191,
+        "question": "Every time you go through a requirements verification process, you find yourself performing similar types of checks, e.g. if the requirements have links to designs, if the requirements are labeled with the stakeholder's name they come from, etc. However, every time you forget one or two of these checks (because there are just so many!). Looks like it is about time you implemented what?",
+        "options": {
+            "a": "A checklist",
+            "b": "A process",
+            "c": "A procedure",
+            "d": "A peer review"
+        },
+        "correct_answer": "A checklist",
+        "explanation": "Checklists are used for quality control when verifying requirements and designs. Checklists may include a standard set of quality elements that business analysts use to verify the requirements. BABOK 7.2 Verify Requirements"
+    },
+    {
+        "id": 192,
+        "question": "Introduction of a new content management system requires nominating people that will curate and manage content in the system. There no people with such experience in the business. What will you recommend an organization does?",
+        "options": {
+            "a": "Do not implement this solution if there are no people capable of using it",
+            "b": "Hire a consultant to tell what to do",
+            "c": "Escalate to management",
+            "d": "Create a training and development plan to gain new skills in the business; potentially create a new org unit or team."
+        },
+        "correct_answer": "Create a training and development plan to gain new skills in the business; potentially create a new org unit or team.",
+        "explanation": "You've identified a skill and training need and a potential need for an org. structure change; so you need to package these discoveries in your recommended actions. Refer to BABOK 8.4 Assess Enterprise Limitations and 8.5 Recommend Actions to Increase Solution Value"
+    },
+    {
+        "id": 193,
+        "question": "The following statement describes which level of requirements: \"the capabilities and qualities of a solution that meets the stakeholder requirements.\"",
+        "options": {
+            "a": "Business",
+            "b": "Stakeholders",
+            "c": "Solution",
+            "d": "Transition"
+        },
+        "correct_answer": "Stakeholders",
+        "explanation": "This is \"stakeholder requirement'. They provide the appropriate level of detail to allow for the development and implementation of the solution. BABOK Guide 2.3 Requirements Classification Schema"
+    },
+    {
+        "id": 194,
+        "question": "A potential solution has been proposed by the implementation team. Your job is to assess how valuable it is going to be. Which factors would you consider?",
+        "options": {
+            "a": "Improved user experience",
+            "b": "Reduced risk",
+            "c": "Achieved compliance",
+            "d": "All of the above"
+        },
+        "correct_answer": "All of the above",
+        "explanation": "Value can include benefits, reduced risk, compliance with business policies and regulations, an improved user experience, or any other positive outcome. BABOK 7.6 Analyze Potential Value and Recommend Solution"
+    },
+    {
+        "id": 195,
+        "question": "An agile team plans its work using user stories that get prioritized for development every 2 weeks. While this is a sound delivery approach, you suggest spending some time looking at a bigger picture and ensuring the team is delivering against an agreed upon vision. The team is hesitant to do it as user stories they work with provide enough clarity on what needs to be done. Which argument is best to use to convince them to rethink their approach?",
+        "options": {
+            "a": "User stories do not focus on value that is why you need strategy",
+            "b": "User stories are facilitating frequent delivery which is riky",
+            "c": "User stories are a tool for short-term capture and prioritisation and require bigger strategic framework to deliver strategic value",
+            "d": "User stories without user story maps are useless and need strategic input"
+        },
+        "correct_answer": "User stories are a tool for short-term capture and prioritisation and require bigger strategic framework to deliver strategic value",
+        "explanation": "user stories are a tool for short-term capture and prioritization. BABOK 10.48 User Stories. The rest of the options are not factually correct."
+    },
+    {
+        "id": 196,
+        "question": "Jessie the Junior Business Analyst conducted a workshop to elicit an initial set of requirements for a new software solution. Prior to the workshop, she prepared the goal of the workshop, agenda and materials; and then she conducted it according to the plan. Now, she has a list of requirements as recorded in the session - what should she do next?",
+        "options": {
+            "a": "Reach out to the participants again and ask to confirm if the list is correct",
+            "b": "Send out broad communication to the stakeholders informing them of requirements",
+            "c": "Prepare requirements baseline",
+            "d": "Start a visual model for the requirements"
+        },
+        "correct_answer": "Reach out to the participants again and ask to confirm if the list is correct",
+        "explanation": "Elicitation and collaboration suggests to go through: Prepare for Elicitation, Conduct Elicitation, Confirm Elicitation Results. Out of the options listed, only one means getting confirmation if the list is correct. BABOK 4. Elicitation and Collaboration"
+    },
+    {
+        "id": 197,
+        "question": "What is the purpose of the lessons learned process?",
+        "options": {
+            "a": "To to compile and document successes, opportunities for improvement, failures, and recommendations for improving the   performance of future projects or project phases",
+            "b": "To compile and document failures and identify people responsible",
+            "c": "To nominate rewards for achievements",
+            "d": "To gain new knowledge predominantly from new external sources such as industry experts, publications, training."
+        },
+        "correct_answer": "To to compile and document successes, opportunities for improvement, failures, and recommendations for improving the   performance of future projects or project phases",
+        "explanation": "The purpose of the lessons learned process is to compile and document successes, opportunities for improvement, failures, and recommendations for improving the performance of future projects or project phases. BABOK 10.27 Lessons Learned"
+    },
+    {
+        "id": 198,
+        "question": "If a stakeholder demands to have all the questions answered and all unknowns clarified before making a decision you would say they are...",
+        "options": {
+            "a": "Risk tolerant, or risk-seeking",
+            "b": "Risk intolerant, or risk aversive",
+            "c": "Risk-accepting",
+            "d": "Risk-indifferent"
+        },
+        "correct_answer": "Risk intolerant, or risk aversive",
+        "explanation": "How much uncertainty a stakeholder or an enterprise is willing to take on in exchange for potential value is referred to as risk tolerance. Risk-aversion: An unwillingness to accept much uncertainty. 6.3 Assess Risks"
+    },
+    {
+        "id": 199,
+        "question": "You face a long lasting initiative that will help achieve a desired future state over a long period of time and multiple changes in multiple business units rather than a single change. What does this mean for release planning?",
+        "options": {
+            "b": "Release planning is something a project manager will plan for",
+            "c": "Multiple releases are likely to happen, and you need to determine which requirements to include in each one.",
+            "d": "It is hard to say how this will likely affect releases"
+        },
+        "correct_answer": "Multiple releases are likely to happen, and you need to determine which requirements to include in each one.",
+        "explanation": "In many cases, the future state will need to be achieved over time rather than through a single change, meaning that the enterprise will have to operate in one or more transition states. Release planning is concerned with determining which requirements to include in each release, phase, or iteration of the change. BABOK 6.4 Define Change Strategy"
+    },
+    {
+        "id": 200,
+        "question": "Steve the project Sponsor asks you to prepare some sort of a document that will capture a rationale for starting a new initiative. Luckily, your company has a rich library of project templates. Which template will you use to compile this document?",
+        "options": {
+            "a": "Business case",
+            "b": "Business model canvas",
+            "c": "Stakeholder requirements",
+            "d": "Future state definition"
+        },
+        "correct_answer": "Business case",
+        "explanation": "A business case captures the rationale for undertaking a change. The business case provides sufficient detail to inform and request approval without providing specific intricacies about the method and/or approach to the implementation. BABOK 10.7 Business Cases"
+    },
+    {
+        "id": 201,
+        "question": "What is best defined as an assessment of the effects a proposed change will have on a stakeholder or stakeholder group, project, or system.",
+        "options": {
+            "a": "Business Analysis",
+            "b": "Business architecture",
+            "c": "Traceability analysis",
+            "d": "Impact analysis"
+        },
+        "correct_answer": "Impact analysis",
+        "explanation": "\"impact analysis: An assessment of the effects a proposed change will have on a stakeholder or stakeholder group, project, or system.\" BABOK Appendix A: Glossary"
+    },
+    {
+        "id": 202,
+        "question": "When designing a workshop, what is one of the considerations that may suggest you shouldn't do it and decide to use another method instead?",
+        "options": {
+            "a": "Stakeholders need a forum for meaningful collaboration",
+            "b": "You don't have a budget for performing multiple interviews",
+            "c": "You need to achieve agreement in a short amount of time",
+            "d": "The potential facilitator is new in the role and is not very experienced"
+        },
+        "correct_answer": "The potential facilitator is new in the role and is not very experienced",
+        "explanation": "\"The success of the workshop is highly dependent on the expertise of the facilitator and knowledge of the participants\" 10.50 Workshops. So an inexperienced facilitator is a consideration to not run a workshop. The rest of the options describe situations when a workshop is actually a good choice."
+    },
+    {
+        "id": 203,
+        "question": "When prioritizing the backlog items, Paula the Product Owner realized that a particular user story lacks details to be reviewed by the team. When she tried to figure out who the stakeholders were that requested this story or which bigger business priority it supports, she could not find this information. Which aspect of requirements management may need to be improved for this team?",
+        "options": {
+            "a": "Requirements allocation",
+            "b": "Requirements change management",
+            "c": "Requirements traceability",
+            "d": "Requirements release"
+        },
+        "correct_answer": "Requirements traceability",
+        "explanation": "Requirements traceability identifies and documents the lineage of each requirement, including its backward traceability, its forward traceability, and its relationship to other requirements. BABOK 5.1 Trace Requirements. In our case, this lineage is clearly broken."
+    },
+    {
+        "id": 204,
+        "question": "Which of the following is an element of requirements verification?",
+        "options": {
+            "a": "Identify assumptions",
+            "b": "Define Measurable Evaluation Criteria",
+            "c": "Ensure requirements exhibit quality characteristics, such as being complete, consistent, feasible etc.",
+            "d": "Evaluate Alignment with Solution Scope"
+        },
+        "correct_answer": "Ensure requirements exhibit quality characteristics, such as being complete, consistent, feasible etc.",
+        "explanation": "The rest are elements of requirements validation. BABOK 7.3 Validate Requirements"
+    },
+    {
+        "id": 205,
+        "question": "Cornelius the Compliance Officer explains that the project will be affected by a lot of general regulatory requirements and contractual obligations as well as lots of business rules. Given this, what should you consider?",
+        "options": {
+            "a": "These seem like transition requirements, so need to treat them as such",
+            "b": "Regulatory requirements will come from legislation, so no need to traceability matrix",
+            "c": "These types of requirements are prime candidates for reuse. You should check if they already exist in the business to potentially save time, and if not prepare them for future reuse.",
+            "d": "On the second thought, there is nothing unusual about these. There is no need to apply any special treatment."
+        },
+        "correct_answer": "These types of requirements are prime candidates for reuse. You should check if they already exist in the business to potentially save time, and if not prepare them for future reuse.",
+        "explanation": "Requirements that are potential candidates for long-term use are those an organization must meet on an ongoing basis. Examples are regulatory, contractual obligations, business rules etc. Refer to BABOK 3.4 Plan Business Analysis Information Management"
+    },
+    {
+        "id": 206,
+        "question": "As a part of going live with a new solution, you and Dean the Data analyst performed a very tedious analysis: mapped all the data attributes from the old system (which will be decommissioned) to the new system, so the data can be migrated. Dean is worried that after the migration is over the work you did will not be preserved and may get forgotten or lost in the future. How would you address this situation?",
+        "options": {
+            "a": "Ensure all the mappings are preserved as a part of reusable requirements architecture",
+            "b": "Include the data mapping requirements into the backlog and store together with the rest of requirements for reuse in future projects.",
+            "c": "Ensure the data migration requirements you uncovered are a part of new team members onboarding process so the knowledge retains",
+            "d": "Will treat the migration requirements derived from data mapping as any other requirement on the project but won't do anything specific to preserve them after the solution is live and functioning. They likely won't be needed or reused in the futre."
+        },
+        "correct_answer": "Will treat the migration requirements derived from data mapping as any other requirement on the project but won't do anything specific to preserve them after the solution is live and functioning. They likely won't be needed or reused in the futre.",
+        "explanation": "Here, we are talking about transition requirements. \"transition requirement: A requirement that describes the capabilities the solution must have and the conditions the solution must meet to facilitate transition from the current state to the future state, but which are not needed once the change is complete. They are differentiated from other requirements types because they are of a temporary nature.\" BABOK Appendix A: Glossary. As the old solution will be decommissioned, chances to reuse the requirements are very low; given their temporary nature there is no ongoing need to preserve them beyond the end of the project."
+    },
+    {
+        "id": 207,
+        "question": "The following aspects will likely be placed in which quadrant of SWOT: experienced personnel, effective processes, efficient IT systems, great customer relationships",
+        "options": {
+            "a": "Strengths",
+            "b": "Weaknesses",
+            "c": "Opportunities",
+            "d": "Threats"
+        },
+        "correct_answer": "Strengths",
+        "explanation": "anything that the assessed group does well belongs to Strengths. 10.46 SWOT Analysis"
+    },
+    {
+        "id": 208,
+        "question": "Billie the Big boss requires an analysis piece that would factor in both internal and external conditions for company's strengths and weaknesses so this analysis can inform strategic prioritization of initiatives. Which technique would you use?",
+        "options": {
+            "a": "SWOT",
+            "b": "PEST",
+            "c": "MOSCOW",
+            "d": "ETL"
+        },
+        "correct_answer": "SWOT",
+        "explanation": "SWOT analysis is a simple yet effective tool used to evaluate an organization's strengths, weaknesses, opportunities, and threats to both internal and external conditions. BABOK 10.46 SWOT Analysis"
+    },
+    {
+        "id": 209,
+        "question": "You have initiated a document review with a group of stakeholders. Now you see first review results: one stakeholder sent a list of recommendations to further improve the document; another sent an acknowledgement that they read it; another sent a meeting invite to discuss the document with a broader group of stakeholders. You clearly missed an important step when preparing for the review. Which one?",
+        "options": {
+            "a": "Select the right participants",
+            "b": "Define and clearly articulate the objective of the review",
+            "c": "Select an appropriate technique for the review",
+            "d": "This is an expected result of a review process, nothing seems to be missing"
+        },
+        "correct_answer": "Define and clearly articulate the objective of the review",
+        "explanation": "It seems the stakeholders thought they needed to do different things during the review. It appears the clear objectives of the review were not articulated. Refer to BABOK 10.37 Reviews"
+    },
+    {
+        "id": 210,
+        "question": "You need to run a scoping workshop to understand the requirements your stakeholders have for a specific product. You need to decide which techniques you want to use. Which approach will you take?",
+        "options": {
+            "a": "Do a research or previous projects and see which techniques were used. This way you can reuse some of the artifacts, plus the audience might be familiar with the techniques.",
+            "b": "Explore the industry books or reach out to broader community for advice on what works best",
+            "c": "Both are sound approaches, and even combining them might be a good idea",
+            "d": "Neither seems like a good approacjh"
+        },
+        "correct_answer": "Both are sound approaches, and even combining them might be a good idea",
+        "explanation": "When selecting elicitation techniques, business analysts consider: \u00e2\u20ac\u00a2 techniques commonly used in similar initiatives, \u00e2\u20ac\u00a2 techniques specifically suited to the situation BABOK 4.1 Prepare for Elicitation"
+    },
+    {
+        "id": 211,
+        "question": "What defines the formal relationships between people working in the enterprise?",
+        "options": {
+            "a": "Culture",
+            "b": "Business architecture",
+            "c": "Business analysis",
+            "d": "Organisational structure"
+        },
+        "correct_answer": "Organisational structure",
+        "explanation": "Organizational structure defines the formal relationships between people working in the enterprise. BABOK 6.1 Analyze Current State"
+    },
+    {
+        "id": 212,
+        "question": "You are in a brainstorming session trying to find ways to identify new areas of focus for a working group (identify potential business needs). The group has come up with the following options:",
+        "options": {
+            "1": "Analyze strategic goals and define business needs from them",
+            "2": "Talk to middle managers and understand their pain points",
+            "3": "Analyze market demand and competition",
+            "You feel like something is missing": "What might it be?",
+            "a": "Analyse current state of business processes",
+            "b": "Analyse future state of the business",
+            "c": "Analyse roadmaps",
+            "d": "It is as good as it could be, there is nothing to add"
+        },
+        "correct_answer": "Analyse current state of business processes",
+        "explanation": "A business need may be identified at many different levels of the enterprise: 1. top-down (strategic goals) 2. bottom-up (current state of business processes, function or system) 3. middle management 4. external drivers (customer demand and business competition) BABOK 6.1 Analyze Current State"
+    },
+    {
+        "id": 213,
+        "question": "Pete the Process analyst needs to present a high level overview of a business process to a group of business stakeholders who have never worked with process models before. What would you recommend for Pete to do?",
+        "options": {
+            "a": "Use a well-defined formal notation like BPMN and send the stakeholders a shareable link to the model so they can access it",
+            "b": "User a value stream map to indicate the process and have a conversation about it with the stakeholders so they can ask questions",
+            "c": "Don't use any models - just create a detailed textual description of a process so they can read it.",
+            "d": "Request for the stakeholders to attend a training course to upskill in process modelling"
+        },
+        "correct_answer": "User a value stream map to indicate the process and have a conversation about it with the stakeholders so they can ask questions",
+        "explanation": "Value stream mapping is the most basic and high level way to model a process, it is often used in business domain. BABOK 10.35 Process Modelling Given the situation, you want to use something simple to quickly understand and move beyond learning notation to getting value out of the model. Ability to present in person and answer questions is also preferred, as you never know which aspect of an unfamiliar tool may confuse people so better give them opportunity to discusss"
+    },
+    {
+        "id": 214,
+        "question": "When documenting the architecture of business, Bob the Business architect defined key business capabilities and how they can be combined and used together to deliver value to customers. He struggles however to use this view to optimise the current performance of the business. What can you recommend?",
+        "options": {
+            "a": "Try to build a technology infrastructure model and use it instead",
+            "b": "Assign KPIs to capabilities and use the KPIs for optimisation",
+            "c": "Examine existing policies",
+            "d": "Build a process-centric view of the enterprise in addition to the capability-centric view he's got already"
+        },
+        "correct_answer": "Build a process-centric view of the enterprise in addition to the capability-centric view he's got already",
+        "explanation": "Business analysts may use 1. A capability-centric view of the enterprise when looking for innovative solutions that combine existing capabilities to produce a new outcome. 2. A process-centric view of the enterprise when looking for ways to improve the performance of current activities BABOK 6.1 Analyze Current State"
+    },
+    {
+        "id": 215,
+        "question": "The project team has finished a stage of a project and released a version of a product live. They have decided that sales numbers together with client feedback via feedback form will be used as performance measures. So, they've designed an approach to collect the data (via web analytics extract for sales figures and a feedback form for customer feedback), defined that the data will be analysed after the solution is live for at least 2 months, and after 2 months collected it. However, the results proved to be inconclusive with sales figures showing low performance and client feedback being very positive. What might be the reason for it?",
+        "options": {
+            "a": "They have missed an important step to validate performance measures, so likely the selected measures are not the best indicators for performance",
+            "b": "They have missed an important step to define the timing to collect the data",
+            "c": "They mistakenly used quantitative and qualitative data together",
+            "d": "They did not do anything wrong, just the data needs more in depth analysis"
+        },
+        "correct_answer": "They have missed an important step to validate performance measures, so likely the selected measures are not the best indicators for performance",
+        "explanation": "You need to define solution performance measures, then validate the measures, then collect the measures considering volume and sample size, timeframes and currency of data. BABOK 8.1 Measure Solution Performance. In our case the team did not perform validation of the measures. Validating performance measures helps to ensure that the assessment of solution performance is useful. Non-validated measures may lead to inconclusive or erroneous results."
+    },
+    {
+        "id": 216,
+        "question": "What is a good example of a qualitative measure?",
+        "options": {
+            "a": "Sales numbers",
+            "b": "Conversion rate",
+            "c": "Total cost of ownership",
+            "d": "Client compliments"
+        },
+        "correct_answer": "Client compliments",
+        "explanation": "Qualitative Measures: are subjective and can include attitudes, perceptions, and any other subjective response. BABOK 8.1 Measure Solution Performance. In our list only the client compliments fall into this category, the rest are quantitative."
+    },
+    {
+        "id": 217,
+        "question": "The web-store your company owns uses a complicated recommendation engine that recommends products the user is likely to enjoy based on their history of purchases. The algorithm occasionally returns errors, so Pia the Process analyst is going to use process analysis technique to analyze the recommendation process. Do you think it is the best way to address the issue, and why?",
+        "options": {
+            "a": "Yes, process analysis is a great choice and it offers different techniques and methodologies to provide flexibility needed for this task",
+            "b": "Yes, process analysis can be used to analyse decision making such as recommendation process",
+            "c": "No, process analysis may prove ineffective at process improvement in knowledge or decision intensive processes such as recommending products.",
+            "d": "No, process analysis is not a technique on its own and can't be done without in-depth process modelling."
+        },
+        "correct_answer": "No, process analysis may prove ineffective at process improvement in knowledge or decision intensive processes such as recommending products.",
+        "explanation": "It may prove ineffective at process improvement in knowledge or decision intensive processes. BABOK 10.34 Process Analysis"
+    },
+    {
+        "id": 218,
+        "question": "The following statement describes which level of requirements: \"statements of goals, objectives, and outcomes that describe why a change has been initiated\"",
+        "options": {
+            "a": "Business",
+            "b": "Stakeholders",
+            "c": "Solution",
+            "d": "Transition"
+        },
+        "correct_answer": "Business",
+        "explanation": "This is \"business requirement'. BABOK Guide 2.3 Requirements Classification Schema"
+    },
+    {
+        "id": 219,
+        "question": "In a typical organisational chart, what does a line depict?",
+        "options": {
+            "a": "Am organisational unit",
+            "b": "A role",
+            "c": "A line of reporting",
+            "d": "An informal relationship"
+        },
+        "correct_answer": "A line of reporting",
+        "explanation": "A line depicts: Lines of Reporting: accountability and control between units. BABOK 10.32 Organizational Modelling"
+    },
+    {
+        "id": 220,
+        "question": "For a project that costs $100 000 to implement and that is expected to bring $120 000 of benefits, what is the ROI?",
+        "options": {
+            "a": "20%",
+            "b": "120%",
+            "c": "83%",
+            "d": "50%"
+        },
+        "correct_answer": "20%",
+        "explanation": "Return on Investment = (Total Benefits \u00e2\u20ac\u201c Cost of the Investment) / Cost of the Investment BABOK 10.20 Financial Analysis"
+    },
+    {
+        "id": 221,
+        "question": "The overall goal of which activity is to transform the elicitation results into requirements and designs?",
+        "options": {
+            "a": "Specify and model requirements",
+            "b": "Validate requirements",
+            "c": "Define requirements",
+            "d": "Document requirements"
+        },
+        "correct_answer": "Specify and model requirements",
+        "explanation": "It is the definition of Specify and model requirements. BABOK 7.1 Specify and Model Requirements"
+    },
+    {
+        "id": 222,
+        "question": "What is the best definition of solution performance measures?",
+        "options": {
+            "a": "Measures that provide information on how well the solution is performing or potentially could perform",
+            "b": "Measures that provide information on which solution should be selected over alternatives",
+            "c": "Criteria associated with a solution that must be met in order to achieve stakeholder acceptance.",
+            "d": "An influencing factor that is believed to be true but has not been confirmed to be accurate"
+        },
+        "correct_answer": "Measures that provide information on how well the solution is performing or potentially could perform",
+        "explanation": "BABOK 8.1 Measure Solution Performance."
+    },
+    {
+        "id": 223,
+        "question": "Your team needs a way to capture requirements, so that they capture stakeholder need, can be used as basis for estimation, as a basis for creation of acceptance tests, and as a way to measure progress. Which technique will you use?",
+        "options": {
+            "a": "Process modelling",
+            "b": "Sequence diagrams",
+            "c": "User stories",
+            "d": "State models"
+        },
+        "correct_answer": "User stories",
+        "explanation": "User stories can be used (among others): \u00e2\u20ac\u00a2 to capture stakeholder needs and prioritize development of solutions, \u00e2\u20ac\u00a2 as a basis of estimating and planning solution delivery, \u00e2\u20ac\u00a2 as a basis for generating user acceptance tests, \u00e2\u20ac\u00a2 as a unit of project management and reporting. BABOK 10.48 User Stories"
+    },
+    {
+        "id": 224,
+        "question": "You work in a company where people find it hard to select models appropriate for the type of solution and audience, and they don't know how to illustrate that requirements and models interact and relate to each. What would they benefit from?",
+        "options": {
+            "a": "Requirements architecture",
+            "b": "Requirements ontology",
+            "c": "Requirements definition",
+            "d": "Requirements traceability"
+        },
+        "correct_answer": "Requirements architecture",
+        "explanation": "Business analysts use a requirements architecture to: 1) understand which models are appropriate for the domain, solution scope, and audience; 2) organize requirements into structures relevant to different stakeholders 3) illustrate how requirements and models interact with and relate to each other, and show how the parts fit together into a meaningful whole. BABOK 7.4 Define Requirements Architecture"
+    },
+    {
+        "id": 225,
+        "question": "Deanne the Data analyst is analysing a data set to figure out what was the distribution of service request among different types of customers. Which type of data mining is she performing?",
+        "options": {
+            "a": "Descriptive",
+            "b": "Diagnostic",
+            "c": "Predictive",
+            "d": "Scientific"
+        },
+        "correct_answer": "Descriptive",
+        "explanation": "Data mining is a general term that covers descriptive, diagnostic, and predictive techniques. Descriptive: <...> make it easier to see the patterns in a set of data, such as similarities between customers. BABOK 10.14 Data Mining"
+    },
+    {
+        "id": 226,
+        "question": "You've got a requirement to ensure certain security practices are implemented for the login functionality, and a separate requirement to have a logged in state. There is clearly a relationship between the two. Which type of relationship are we talking about here?",
+        "options": {
+            "a": "Derive: one item is derived from another",
+            "b": "Satisfy: one of the items is an implementation of another",
+            "c": "Dependency -> Necessity: It only makes sense to implement a requirement if another one is also implemented",
+            "d": "Dependency -> Effort: it is easier to implement one requirement if another is also implemented"
+        },
+        "correct_answer": "Dependency -> Necessity: It only makes sense to implement a requirement if another one is also implemented",
+        "explanation": "Depends: relationship between two requirements, used when a requirement depends on another requirement. Types of dependency relationships include Necessity: when it only makes sense to implement a particular requirement if a related requirement is also implemented. BABOK 5.1 Trace Requirements. This is our case."
+    },
+    {
+        "id": 227,
+        "question": "A very high-profile compliance project has a long list of requirements. A company can be fined for not implementing those. Unfortunately, it is obvious not all of them can be implemented in the time requested by the regulator, so prioritization needs to happen. Palash the Product Manager is prioritizing the requirements based on the financial cost-benefit ratio. You feel like there might be a better way for this situation. Which basis of prioritization would you suggest for him to use instead?",
+        "options": {
+            "a": "Just benefit alone, costs are not important in this case as this is compliance so requirements need to be implemented regardless of cost.",
+            "b": "Penalty, you need to address the ones with highest regulatory penalty if not implemented first",
+            "c": "Risk, prioritise the most uncertain ones first so you know which ones can or cannot be met at all",
+            "d": "Stability, prioritise those that are less likely to change over time"
+        },
+        "correct_answer": "Penalty, you need to address the ones with highest regulatory penalty if not implemented first",
+        "explanation": "All of these are sound bases for prioritization, but in case of a regulatory request that you know you can't fulfill on time the penalty in unavoidable. So the best strategy may be to try decrease this penalty. Refer to BABOK 5.3 Prioritize Requirements for more details on different prioritization approaches."
+    },
+    {
+        "id": 228,
+        "question": "What is best defined as an act of transformation in response to a need?",
+        "options": {
+            "a": "Change",
+            "b": "Solution",
+            "c": "Transformation",
+            "d": "Transition"
+        },
+        "correct_answer": "Change",
+        "explanation": "\"change: The act of transformation in response to a need.\" BABOK Appendix A: Glossary"
+    },
+    {
+        "id": 229,
+        "question": "When planning a project, you realise that the corresponding legislation will change during the course of the project, and the new law is already approved and is waiting to come into force on a pre-defined date. How will you treat it?",
+        "options": {
+            "a": "As a risk; it is an unfortunate event that will need to be dealt with.",
+            "b": "As an assumption; and will address when it happens",
+            "c": "As a requirement; so the solution is built accommodating for the new legislation by design",
+            "d": "As an unknown; you can't be sure what does it mean for you yet"
+        },
+        "correct_answer": "As a requirement; so the solution is built accommodating for the new legislation by design",
+        "explanation": "When dealing with risks, there is uncertainty in the likelihood of it occurring, and the impact if it does occur. When dealing with assumption, you don't know if it is true or not. In our case, both definitions can not be applied, so it is a straightforward legal requirement."
+    },
+    {
+        "id": 230,
+        "question": "What is used to record, track, and prioritize remaining work items?",
+        "options": {
+            "a": "Backlog",
+            "b": "Timebox",
+            "c": "Requirements specification document",
+            "d": "Project plan"
+        },
+        "correct_answer": "Backlog",
+        "explanation": "The backlog is used to record, track, and prioritize remaining work items. BABOK 10.2 Backlog Management"
+    },
+    {
+        "id": 231,
+        "question": "After having performed solution evaluation and assessment of limitations, Billie the BA comes to a conclusion that no further actions are needed. What is the most likely result of her analysis?",
+        "options": {
+            "a": "She has identified extra capabilities that the system is missing",
+            "b": "She has identified that value to implement any further changes is low relative to effort",
+            "c": "She has identified that the solution is no longer relevant",
+            "d": "She probably didn't do a good job - \"do nothing\" is not a valid strategy"
+        },
+        "correct_answer": "She has identified that value to implement any further changes is low relative to effort",
+        "explanation": "Based on the solution evaluation and assessment of limitation, a BA may recommend actions to further improve quality/increase value. \"Do nothing\" is a strategy to choose if value is low relative to effort. BABOK 8.5 Recommend Actions to Increase Solution Value"
+    },
+    {
+        "id": 232,
+        "question": "You have a list of requirements recorded in a Jira backlog. You discuss them one by one with your stakeholders to ensure they are agreed upon and approved. Which one of the listed below is the best way to track the fact a requirement is approved?",
+        "options": {
+            "a": "In meeting notes that you will send as an email",
+            "b": "Verbally with the stakeholders",
+            "c": "Using status field in Jira",
+            "d": "Using a shared document like a wiki page or google doc"
+        },
+        "correct_answer": "Using status field in Jira",
+        "explanation": "\"The business analyst records approval decisions, possibly in requirements maintenance and tracking tools.\" BABOK 5.5 Approve Requirements"
+    },
+    {
+        "id": 233,
+        "question": "What do you need to do to ensure that the right subject matter experts (SMEs) and other stakeholders are participating in the initiative effectively?",
+        "options": {
+            "a": "Continuously monitor the participation and performance of stakeholders and make adjustments accordingly",
+            "b": "Create a RACI at the start of the project",
+            "c": "Create a stakeholder register",
+            "d": "Ask project manager to manage communications"
+        },
+        "correct_answer": "Continuously monitor the participation and performance of stakeholders and make adjustments accordingly",
+        "explanation": "Business analysts monitor the participation and performance of stakeholders to ensure that the right subject matter experts (SMEs) and other stakeholders are participating effectively. BABOK 4.5 Manage Stakeholder Collaboration"
+    },
+    {
+        "id": 234,
+        "question": "Benchmark studies are conducted to compare organizational practices against what?",
+        "options": {
+            "a": "the previous year performance",
+            "b": "the best-in-class practices",
+            "c": "the stakeholder expectations",
+            "d": "Exit-market criteria"
+        },
+        "correct_answer": "the best-in-class practices",
+        "explanation": "Benchmark studies are conducted to compare organizational practices against the best-in-class practices. 10.4 Benchmarking and Market Analysis"
+    },
+    {
+        "id": 235,
+        "question": "b.Enterprise Limitations",
+        "options": {
+            "c": "Both",
+            "d": "Neither"
+        },
+        "correct_answer": "Both",
+        "explanation": "Based on the solution evaluation and assessment of limitation, a BA may recommend actions to further improve quality/increase value. refer to BABOK 8.5 Recommend Actions to Increase Solution Value"
+    },
+    {
+        "id": 236,
+        "question": "What can be defined as a set of conventions that define how requirements will be represented, how these representations will be organized, and how they will be related to address concerns of a given stakeholder group?",
+        "options": {
+            "a": "Requirements architecture",
+            "b": "View",
+            "c": "Viewpoint",
+            "d": "Baseline",
+            "Explanatio:A viewpoint is a set of conventions that define how requirements will be represented, how these representations will be organized, and how they will be related": "Viewpoints provide templates for addressing the concerns of particular stakeholder groups. BABOK 7.4 Define Requirements Architecture"
+        },
+        "correct_answer": "Viewpoint",
+        "explanation": ""
+    },
+    {
+        "id": 237,
+        "question": "The business team managed to prioritise the requirements based on expected business value. When the technical team picks the project up, they propose to reorder some requirements to ease implementation approach, promising to still deliver the full scope in initially agreed timeframes. Is it an acceptable approach?",
+        "options": {
+            "a": "No, the technical team cannot overrule the business prioritisation",
+            "b": "No, you should never use ease of implementation as a factor for prioritisation",
+            "c": "Yes, business priorities are always indicative until technical analysis is done",
+            "d": "Yes, the basis for prioritization may be different at various stages of the change."
+        },
+        "correct_answer": "Yes, the basis for prioritization may be different at various stages of the change.",
+        "explanation": "The basis for prioritization may be different at various stages of the change. For example, stakeholders may initially prioritize based on benefits. The implementation team may then re-prioritize the requirements based on the sequence in which they must be implemented due to technical constraints. BABOK 5.3 Prioritize Requirements"
+    },
+    {
+        "id": 238,
+        "question": "After you've understood the problem at hand and listed the requirements to the solution, you tell your manager you want to spend time defining solution options. Your manager is not convinced it is needed because they already have a change strategy in place. How do you respond?",
+        "options": {
+            "a": "Having change strategy is enough",
+            "b": "Solution options is an integral part of project management best practices so must be done",
+            "c": "When designing a solution, there may be one and only one design option and it needs to be identified",
+            "d": "Design options exist at a lower level than the change strategy, and are tactical rather than strategic"
+        },
+        "correct_answer": "Design options exist at a lower level than the change strategy, and are tactical rather than strategic",
+        "explanation": "When designing a solution, there may be one or more design options identified. Each design option represents a way to satisfy a set of requirements. Design options exist at a lower level than the change strategy, and are tactical rather than strategic. BABOK 7.5 Define Design Options"
+    },
+    {
+        "id": 239,
+        "question": "Billie the Big boss (and the project sponsor at the same time) tells the team one day: \"We don't have enough time, so let's skip working on transition requirements. Anyway they are of temporary nature so not that important.\" What will be your response?",
+        "options": {
+            "a": "Billie is right, they are of temporary nature so can be omitted.",
+            "b": "Transition requirements are temporary in nature indeed, but they are needed to facilitate the transition from the current state to the future state and as such are important.",
+            "c": "Transition requirements are not temporary and have to be defined for the years to come.",
+            "d": "Even though they are of temporary nature, transition requirements are an important part of non-functional requirements and can't be omitted."
+        },
+        "correct_answer": "Transition requirements are temporary in nature indeed, but they are needed to facilitate the transition from the current state to the future state and as such are important.",
+        "explanation": "\"describe the capabilities that the solution must have and the conditions the solution must meet to facilitate transition from the current state to the future state, but which are not needed once the change is complete. They are differentiated from other requirements types because they are of a temporary nature.\" 2.3 Requirements Classification Schema"
+    },
+    {
+        "id": 240,
+        "question": "Your project is almost done, the technical solution is developed and fully tested and will be launched to production soon. In order to ensure smooth transition to the new solution, you are assessing current business process, policies, team members' skills and other tools they use to identify any potential gaps or conflicts so you can resolve them before going live. In other words, which assessment do you perform?",
+        "options": {
+            "a": "Stakeholder impact assessment",
+            "b": "Organisational assessment",
+            "c": "Org structure assessment",
+            "d": "Cultural assessment"
+        },
+        "correct_answer": "Organisational assessment",
+        "explanation": "The operational assessment is performed to determine if an enterprise is able to adapt to or effectively use a solution. This identifies which processes and tools within the enterprise are adequately equipped to benefit from the solution, and if sufficient and appropriate assets are in place to support it. When conducting an operational assessment, business analysts consider: \u00e2\u20ac\u00a2 policies and procedures, \u00e2\u20ac\u00a2 capabilities and processes that enable other capabilities, \u00e2\u20ac\u00a2 skill and training needs, \u00e2\u20ac\u00a2 human resources practices, \u00e2\u20ac\u00a2 risk tolerance and management approaches, and \u00e2\u20ac\u00a2 tools and technology that support a solution. BABOK 8.3 Assess Solution Limitations"
+    },
+    {
+        "id": 241,
+        "question": "Working on a project, Bill the Business Analyst needs to collect a lot of data about different items stored in the company's warehouse. This is done so the data can be analysed and a proper automation system can be put in place to manage stock. Which modelling format would you recommend for Bill to use?",
+        "options": {
+            "a": "Tree diagram",
+            "b": "Matrix",
+            "c": "Decision model",
+            "d": "Object model"
+        },
+        "correct_answer": "Matrix",
+        "explanation": "A Matrix is better suited for this case. \"a matrix is used when the business analyst is modelling a requirement or set of requirements that have a complex but uniform structure, which can be broken down into elements that apply to every entry in the table.\" BABOK 7.1 Specify and Model Requirements"
+    },
+    {
+        "id": 242,
+        "question": "Although requirements attributes can be defined specifically for your project, some of them tend to be commonly used. Which attribute is typically used to provide a unique identifier for a requirement?",
+        "options": {
+            "a": "Absolute reference (or ID)",
+            "b": "Summary",
+            "c": "Description",
+            "d": "Source"
+        },
+        "correct_answer": "Absolute reference (or ID)",
+        "explanation": "Absolute reference: provides a unique identifier. The reference is not altered or reused if the requirement is moved, changed, or deleted. Refer to BABOK 3.4 Plan Business Analysis Information Management"
+    },
+    {
+        "id": 243,
+        "question": "Sue the Stakeholder approaches you and asks to implement a new feature for her department. The feature seems reasonable, however it has not been prioritised for your team to work on yet, and you know that chances are it won't be prioritised in foreseeable future due to high priority work items on your yearly roadmap. What do you do?",
+        "options": {
+            "a": "In the spirit of agile, treat it as customer feedback and accept it to work as soon as you can.",
+            "b": "Reject it as there no room to look into it",
+            "c": "Do not promise anything but add it to the backlog to be looked at during the next backlog refinement opportunity",
+            "d": "Escalate the issue to the board for decision making"
+        },
+        "correct_answer": "Do not promise anything but add it to the backlog to be looked at during the next backlog refinement opportunity",
+        "explanation": "Backlog is your record of all work that is not done yet. So customer/stakeholder requests should be recorded there so they can be prioritised alongside other work items. Then according to BABOK \"Periodic review of the entire backlog should occur because changes in stakeholder needs and priorities may necessitate changes to the priority of some of the backlog items. In many environments, the backlog is reviewed at planned intervals.\" BABOK 10.2 Backlog Management. This way answer 3 seems the best course of action."
+    },
+    {
+        "id": 244,
+        "question": "Which out of the following issues can be resolved using traceability?",
+        "options": {
+            "A": "Perform impact analysis when a requirement changes",
+            "B": "Perform assessment which requirements are covered by test cases",
+            "C": "Clearly articulate end to end solution implementation approach",
+            "D": "Discover inconsistencies and gaps in requirements",
+            "a": "A, B",
+            "b": "A, B, C",
+            "c": "A, B, D",
+            "d": "B, D"
+        },
+        "correct_answer": "A, B, D",
+        "explanation": "Refer to BABOK 5.1 Trace Requirements"
     }
 ]
