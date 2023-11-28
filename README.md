@@ -17,7 +17,7 @@ To install and run the passCBAP project locally on your machine, follow these st
 
 1. Clone the repository from GitHub:
    ```
-   git clone https://github.com/your-username/passCBAP.git
+   git clone https://github.com/HulkOfKnowledge/passCBAP
    ```
 
 2. Navigate to the project directory:
