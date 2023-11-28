@@ -13,6 +13,7 @@ class Exam(models.Model):
 class Question(models.Model):
     exam = models.ForeignKey(Exam, on_delete=models.CASCADE)
     question_id = models.IntegerField()
+    question_category = models.CharField(max_length=100)
     question = models.TextField()
     options = models.JSONField()
     selected_answer = models.CharField(max_length=255, blank=True, null=True)

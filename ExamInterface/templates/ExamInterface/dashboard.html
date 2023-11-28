@@ -76,7 +76,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="examCriteriaForm" method="post" action="">
+                <form id="examCriteriaForm" method="post" action="{% url 'exam-hall' %}">
                     {% csrf_token %}
                     <div class="mb-3">
                         <label for="numQuestions" class="form-label">Number of Questions</label>
@@ -85,6 +85,18 @@
                     <div class="mb-3">
                         <label for="duration" class="form-label">Duration (in minutes)</label>
                         <input type="number" class="form-control" id="duration" name="duration" placeholder="10" min="5" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Question Category</label>
+                        <select class="form-select" id="category" name="category" required>
+                            <option value="">Select Category</option>
+                            <!-- Add options for the available question categories -->
+                            <option value="Elicitation and Collaboration">Elicitation and Collaboration</option>
+                            <option value="Requirements Life Cycle Management">Requirements Life Cycle Management</option>
+                            <option value="Strategy Analysis">Strategy Analysis</option>
+                            <option value="Requirements Analysis and Design Definition">Requirements Analysis and Design Definition</option>
+                            <option value="Solution Evaluation">Solution Evaluation</option>
+                        </select>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -98,11 +110,12 @@
 
 <script>
     // Update the Start Exam button URL when the exam criteria form is submitted
-    document.getElementById('startExamBtn').addEventListener('click', function (event) {
+    document.getElementById('examCriteriaForm').addEventListener('submit', function (event) {
         event.preventDefault();
         var numQuestions = document.getElementById('numQuestions').value;
         var duration = document.getElementById('duration').value;
-        if (numQuestions >= 30 && duration >= 5) {
+        var category = document.getElementById('category').value;
+        if (numQuestions >= 30 && duration >= 5 && category) {
             startExamBtn.href = "{% url 'exam-hall' %}?num_questions=" + numQuestions + "&duration=" + duration;
             window.location.href = startExamBtn.href;
         } else if (numQuestions >= 30 && duration < 5) {
@@ -110,8 +123,9 @@
         } else if (numQuestions < 30 && duration >= 5) {
             alert("The minimum number of questions for an exam is 30!");
         } else {
-            alert("The minimum number of questions is 30 and the minimum duration is 5 minutes.");
+            alert("Please select a question category and ensure the minimum number of questions is 30 and the minimum duration is 5 minutes.");
         }
     });
 </script>
 {% endblock %}
+

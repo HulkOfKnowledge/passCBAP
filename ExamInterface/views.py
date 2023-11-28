@@ -24,8 +24,8 @@ def dashboard(request):
 @login_required(login_url='sign-in')
 def exam_hall(request):
     if request.method == 'GET':
-        num_questions = int(request.GET.get('num_questions', 120))
-        duration = int(request.GET.get('duration', 210))
+        num_questions = int(request.GET.get('num_questions', 30))
+        duration = int(request.GET.get('duration', 10))
 
         if num_questions and duration:
             user = request.user
