@@ -67,6 +67,7 @@ To install and run the passCBAP project locally on your machine, follow these st
 - Bootstrap
 - jQuery
 - Django
+- MailTrap
 
 ## Contributing
 Contributions to the passCBAP project are welcome! If you want to contribute, please follow these steps:
@@ -81,4 +82,4 @@ Contributions to the passCBAP project are welcome! If you want to contribute, pl
 The passCBAP project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Live Demo
-A live demo of passCBAP is available at [passCBAP Live Demo](https://web-production-be78.up.railway.app/). The project has been deployed using Railway. Feel free to explore the application and test its features.
+A live demo of passCBAP is available at [passCBAP Live Demo](https://hulkofknowledge.pythonanywhere.com/). The project has been deployed using PythonAnywhere. Feel free to explore the application and test its features.
